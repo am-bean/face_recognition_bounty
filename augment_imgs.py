@@ -7,6 +7,8 @@ import argparse
 from typing import List
 from pathlib import Path
 from functools import lru_cache
+# set seed
+np.random.seed(42)
 
 logger = logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
