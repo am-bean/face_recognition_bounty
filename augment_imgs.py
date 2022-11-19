@@ -63,7 +63,7 @@ def create_augs(
             }
             augs = seq.augment_images(list(sample_imgs.values()))
             for i, aug in enumerate(augs):
-                cv2.imwrite(str(data_dir / df_sample.iloc[i, 4]), aug)
+                cv2.imwrite(str(data_dir / df_sample.iloc[i, 5]), aug)
             new_df = pd.concat([new_df, df_sample])
     return new_df
 
@@ -88,8 +88,8 @@ def upsample_imgs(
 def main(args: argparse.Namespace) -> None:
     DATA_DIR = Path(args.data_dir)
     CATS = ["skin_tone", "gender", "age"]
-    labels = pd.read_csv(DATA_DIR / "labels.csv")
-    labels.dropna(inplace=True)
+    labels = pd.read_csv(Path(args.label_path))
+    labels = labels[labels["real_face"] == 1].dropna()
     aug_df = upsample_imgs(labels, sample_cols=CATS, seq=newseq, data_dir=DATA_DIR)
     aug_df.to_csv(DATA_DIR / "aug_labels.csv", index=False)
 
@@ -100,5 +100,6 @@ if __name__ == "__main__":
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument("--data-dir", type=str, default="data")
+    parser.add_argument("--label-path", type=str)
     args = parser.parse_args()
     main(args)
