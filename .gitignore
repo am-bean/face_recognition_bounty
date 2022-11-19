@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+*.png
+*.zip
+/models/
+
+
+=======
+>>>>>>> parent of 7b83672 (setup)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
