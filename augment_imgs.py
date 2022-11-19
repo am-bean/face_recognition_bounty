@@ -4,9 +4,10 @@ import logging
 import cv2
 import numpy as np
 import argparse
-from typing import List
+from typing import List, Tuple
 from pathlib import Path
 from functools import lru_cache
+
 # set seed
 np.random.seed(42)
 
@@ -52,38 +53,49 @@ def create_augs(
     img_to_sample: pd.Series,
     seq: iaa.Sequential,
     data_dir,
+    counter: int,
     colname: str = "age",
-) -> pd.DataFrame:
+) -> Tuple[pd.DataFrame, int]:
     new_df = pd.DataFrame()
+    this_counter = counter
     for cat, count in img_to_sample.items():
         logging.info(f"Sampling {count} images for {colname} {cat}")
         if count > 0:
             df_sample = df[df[colname] == cat].sample(count, replace=True)
-            df_sample["aug_name"] = create_aug_names(df_sample["name"])
-            sample_imgs = {
-                name: load_rgb(data_dir / name) for name in df_sample["name"]
-            }
-            augs = seq.augment_images(list(sample_imgs.values()))
+            sample_imgs = [load_rgb(data_dir / name) for name in df_sample["name"]]
+
+            augs = seq.augment_images(sample_imgs)
+            df_sample["aug_name"] = None
+            aug_paths = []
             for i, aug in enumerate(augs):
-                cv2.imwrite(str(data_dir / df_sample.iloc[i, 5]), aug)
+                aug_path = data_dir / f"{this_counter}_{df_sample.iloc[i]['name']}"
+                aug_paths.append(aug_path.name)
+                cv2.imwrite(str(aug_path), aug)
+                this_counter += 1
+                assert aug_path.exists(), f"Augmented image {aug_path} does not exist"
+            df_sample = df_sample.assign(aug_name=aug_paths)
+            assert (
+                df_sample["aug_name"].isna().sum() == 0
+            ), "Augmented image name is NaN"
             new_df = pd.concat([new_df, df_sample])
-    return new_df
+    return (new_df, this_counter)
 
 
 def upsample_imgs(
     df: pd.DataFrame, sample_cols: List[str], seq: iaa.Sequential, data_dir: Path
 ) -> pd.DataFrame:
     aug_df = pd.DataFrame()
+    counter = 0
     for col in sample_cols:
         logging.info(f"Upsampling {col}")
         counts = df[col].value_counts()
         img_to_sample = counts.max() - counts
-        aug_df = pd.concat(
-            [
-                aug_df,
-                create_augs(df, img_to_sample, seq=seq, colname=col, data_dir=data_dir),
-            ]
+        new_aug, new_count = create_augs(
+            df, img_to_sample, seq=seq, colname=col, data_dir=data_dir, counter=counter,
         )
+
+        counter += new_count
+        aug_df = pd.concat([aug_df, new_aug,])
     return aug_df
 
 
@@ -93,7 +105,7 @@ def main(args: argparse.Namespace) -> None:
     labels = pd.read_csv(Path(args.label_path))
     labels = labels[labels["real_face"] == 1].dropna()
     aug_df = upsample_imgs(labels, sample_cols=CATS, seq=newseq, data_dir=DATA_DIR)
-    aug_df.to_csv(DATA_DIR / "aug_labels.csv", index=False)
+    aug_df.to_csv(DATA_DIR / "aug_labels2.csv", index=False)
 
 
 if __name__ == "__main__":
