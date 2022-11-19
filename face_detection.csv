@@ -1,6 +1,6 @@
 name,skin_tone,gender,age,face
 TRAIN0001.png,monk_1,female,18_30,1
-TRAIN0002.png,monk_6,male,0_17,0
+TRAIN0002.png,monk_6,male,0_17,1
 TRAIN0004.png,monk_3,male,0_17,0
 TRAIN0005.png,monk_2,male,0_17,0
 TRAIN0006.png,monk_2,female,18_30,1
@@ -65,7 +65,7 @@ TRAIN0100.png,monk_3,male,31_60,0
 TRAIN0104.png,monk_8,female,31_60,0
 TRAIN0105.png,monk_4,male,18_30,0
 TRAIN0109.png,monk_5,male,18_30,0
-TRAIN0110.png,monk_5,female,18_30,0
+TRAIN0110.png,monk_5,female,18_30,1
 TRAIN0112.png,monk_5,female,31_60,0
 TRAIN0113.png,monk_8,male,31_60,0
 TRAIN0114.png,monk_3,male,0_17,1
@@ -81,7 +81,7 @@ TRAIN0125.png,monk_5,male,18_30,0
 TRAIN0126.png,monk_4,male,0_17,0
 TRAIN0128.png,monk_5,male,18_30,0
 TRAIN0129.png,monk_1,female,18_30,1
-TRAIN0130.png,monk_3,female,18_30,0
+TRAIN0130.png,monk_3,female,18_30,1
 TRAIN0133.png,monk_5,female,0_17,0
 TRAIN0136.png,monk_5,male,18_30,0
 TRAIN0137.png,monk_7,female,0_17,0
@@ -135,7 +135,7 @@ TRAIN0197.png,monk_6,female,31_60,1
 TRAIN0198.png,monk_9,male,0_17,0
 TRAIN0199.png,monk_4,female,18_30,1
 TRAIN0201.png,monk_5,male,31_60,1
-TRAIN0202.png,monk_4,female,0_17,0
+TRAIN0202.png,monk_4,female,0_17,1
 TRAIN0203.png,monk_5,male,18_30,0
 TRAIN0204.png,monk_4,male,18_30,0
 TRAIN0205.png,monk_5,female,18_30,1
@@ -156,7 +156,7 @@ TRAIN0226.png,monk_5,female,0_17,0
 TRAIN0228.png,monk_3,female,31_60,1
 TRAIN0229.png,monk_3,female,0_17,1
 TRAIN0231.png,monk_7,female,61_100,1
-TRAIN0232.png,monk_5,female,18_30,0
+TRAIN0232.png,monk_5,female,18_30,1
 TRAIN0233.png,monk_1,female,31_60,1
 TRAIN0234.png,monk_2,female,18_30,1
 TRAIN0235.png,monk_7,female,18_30,0
@@ -182,7 +182,7 @@ TRAIN0261.png,monk_2,male,31_60,0
 TRAIN0262.png,monk_2,female,18_30,0
 TRAIN0264.png,monk_3,female,18_30,0
 TRAIN0268.png,monk_8,male,31_60,1
-TRAIN0269.png,monk_5,male,31_60,0
+TRAIN0269.png,monk_5,male,31_60,1
 TRAIN0270.png,monk_3,female,0_17,0
 TRAIN0271.png,monk_3,male,18_30,0
 TRAIN0272.png,monk_4,male,0_17,1
@@ -202,11 +202,11 @@ TRAIN0289.png,monk_4,female,18_30,0
 TRAIN0294.png,monk_3,male,0_17,0
 TRAIN0296.png,monk_9,male,0_17,1
 TRAIN0297.png,monk_4,female,18_30,1
-TRAIN0298.png,monk_4,female,31_60,0
+TRAIN0298.png,monk_4,female,31_60,1
 TRAIN0300.png,monk_3,female,61_100,1
 TRAIN0301.png,monk_9,female,0_17,0
 TRAIN0302.png,monk_3,female,0_17,0
-TRAIN0305.png,monk_1,female,0_17,0
+TRAIN0305.png,monk_1,female,0_17,1
 TRAIN0306.png,monk_3,female,18_30,0
 TRAIN0307.png,monk_9,male,31_60,1
 TRAIN0308.png,monk_2,female,0_17,1
@@ -240,7 +240,7 @@ TRAIN0343.png,monk_3,female,31_60,1
 TRAIN0344.png,monk_4,female,31_60,0
 TRAIN0345.png,monk_5,male,18_30,0
 TRAIN0347.png,monk_5,male,31_60,0
-TRAIN0348.png,monk_8,male,31_60,0
+TRAIN0348.png,monk_8,male,31_60,1
 TRAIN0350.png,monk_3,female,31_60,0
 TRAIN0351.png,monk_6,male,61_100,1
 TRAIN0352.png,monk_5,female,0_17,0
@@ -256,7 +256,7 @@ TRAIN0365.png,monk_4,female,0_17,0
 TRAIN0366.png,monk_4,female,18_30,0
 TRAIN0369.png,monk_2,male,18_30,1
 TRAIN0370.png,monk_6,male,0_17,1
-TRAIN0371.png,monk_4,female,31_60,0
+TRAIN0371.png,monk_4,female,31_60,1
 TRAIN0372.png,monk_4,female,18_30,1
 TRAIN0374.png,monk_4,male,0_17,1
 TRAIN0375.png,monk_3,female,18_30,1
@@ -346,7 +346,7 @@ TRAIN0512.png,monk_3,female,31_60,0
 TRAIN0514.png,monk_8,female,31_60,0
 TRAIN0515.png,monk_1,male,18_30,0
 TRAIN0516.png,monk_2,male,18_30,1
-TRAIN0517.png,monk_5,female,18_30,0
+TRAIN0517.png,monk_5,female,18_30,1
 TRAIN0519.png,monk_5,male,31_60,1
 TRAIN0520.png,monk_3,male,31_60,1
 TRAIN0521.png,monk_2,female,18_30,0
@@ -442,7 +442,7 @@ TRAIN0645.png,monk_6,female,31_60,0
 TRAIN0646.png,monk_1,male,18_30,0
 TRAIN0648.png,monk_5,female,18_30,0
 TRAIN0649.png,monk_2,female,18_30,0
-TRAIN0650.png,monk_1,female,18_30,0
+TRAIN0650.png,monk_1,female,18_30,1
 TRAIN0652.png,monk_3,male,18_30,0
 TRAIN0653.png,monk_4,female,0_17,0
 TRAIN0654.png,monk_2,female,18_30,0
@@ -477,7 +477,7 @@ TRAIN0688.png,monk_2,female,0_17,0
 TRAIN0689.png,monk_3,female,0_17,0
 TRAIN0690.png,monk_4,male,18_30,0
 TRAIN0691.png,monk_3,female,31_60,0
-TRAIN0692.png,monk_4,female,31_60,0
+TRAIN0692.png,monk_4,female,31_60,1
 TRAIN0693.png,monk_3,female,18_30,1
 TRAIN0695.png,monk_2,female,18_30,0
 TRAIN0697.png,monk_5,male,0_17,0
@@ -538,7 +538,7 @@ TRAIN0784.png,monk_4,female,0_17,0
 TRAIN0785.png,monk_5,male,31_60,1
 TRAIN0786.png,monk_3,male,0_17,1
 TRAIN0787.png,monk_3,female,18_30,0
-TRAIN0790.png,monk_3,female,18_30,0
+TRAIN0790.png,monk_3,female,18_30,1
 TRAIN0791.png,monk_3,female,18_30,0
 TRAIN0792.png,monk_4,female,18_30,1
 TRAIN0793.png,monk_3,female,0_17,0
@@ -617,7 +617,7 @@ TRAIN0890.png,monk_7,female,18_30,1
 TRAIN0891.png,monk_4,female,31_60,0
 TRAIN0892.png,monk_2,female,18_30,0
 TRAIN0893.png,monk_5,male,31_60,1
-TRAIN0894.png,monk_2,male,61_100,0
+TRAIN0894.png,monk_2,male,61_100,1
 TRAIN0896.png,monk_4,male,31_60,0
 TRAIN0897.png,monk_9,male,0_17,1
 TRAIN0899.png,monk_4,male,18_30,0
@@ -629,7 +629,7 @@ TRAIN0907.png,monk_5,female,61_100,1
 TRAIN0910.png,monk_6,male,18_30,1
 TRAIN0911.png,monk_4,female,18_30,0
 TRAIN0912.png,monk_2,female,31_60,1
-TRAIN0913.png,monk_4,female,18_30,0
+TRAIN0913.png,monk_4,female,18_30,1
 TRAIN0915.png,monk_3,female,18_30,1
 TRAIN0917.png,monk_4,female,18_30,0
 TRAIN0918.png,monk_7,female,31_60,0
@@ -664,7 +664,7 @@ TRAIN0951.png,monk_3,male,0_17,1
 TRAIN0953.png,monk_2,male,0_17,0
 TRAIN0954.png,monk_5,male,31_60,0
 TRAIN0955.png,monk_7,female,0_17,0
-TRAIN0956.png,monk_6,female,18_30,0
+TRAIN0956.png,monk_6,female,18_30,1
 TRAIN0959.png,monk_7,female,0_17,0
 TRAIN0961.png,monk_10,female,18_30,0
 TRAIN0962.png,monk_8,male,0_17,1
@@ -795,13 +795,13 @@ TRAIN1012.png,monk_3,male,0_17,1
 TRAIN10122.png,monk_1,male,18_30,1
 TRAIN10123.png,monk_3,male,18_30,0
 TRAIN10124.png,monk_2,female,31_60,1
-TRAIN10125.png,monk_6,female,31_60,0
+TRAIN10125.png,monk_6,female,31_60,1
 TRAIN1013.png,monk_3,female,18_30,0
 TRAIN10131.png,monk_2,female,18_30,1
 TRAIN10133.png,monk_5,female,31_60,1
 TRAIN10134.png,monk_9,male,18_30,1
 TRAIN10135.png,monk_3,female,0_17,0
-TRAIN10136.png,monk_4,male,18_30,0
+TRAIN10136.png,monk_4,male,18_30,1
 TRAIN10137.png,monk_3,male,18_30,0
 TRAIN10138.png,monk_4,male,0_17,1
 TRAIN10139.png,monk_3,female,18_30,1
@@ -813,7 +813,7 @@ TRAIN1015.png,monk_2,male,0_17,1
 TRAIN10150.png,monk_7,male,18_30,0
 TRAIN10151.png,monk_4,female,0_17,0
 TRAIN10152.png,monk_3,female,18_30,1
-TRAIN10153.png,monk_5,female,18_30,0
+TRAIN10153.png,monk_5,female,18_30,1
 TRAIN10155.png,monk_4,female,18_30,1
 TRAIN10156.png,monk_4,female,18_30,1
 TRAIN10157.png,monk_3,female,0_17,1
@@ -871,7 +871,7 @@ TRAIN10221.png,monk_3,female,18_30,1
 TRAIN10222.png,monk_2,male,0_17,0
 TRAIN10223.png,monk_1,female,18_30,1
 TRAIN10224.png,monk_6,female,0_17,0
-TRAIN10225.png,monk_4,female,31_60,0
+TRAIN10225.png,monk_4,female,31_60,1
 TRAIN10226.png,monk_8,male,18_30,0
 TRAIN10227.png,monk_3,female,0_17,0
 TRAIN10229.png,monk_5,male,18_30,1
@@ -1008,7 +1008,7 @@ TRAIN10398.png,monk_7,female,18_30,1
 TRAIN10399.png,monk_7,male,61_100,0
 TRAIN1040.png,monk_6,female,0_17,0
 TRAIN10400.png,monk_4,female,18_30,1
-TRAIN10401.png,monk_4,male,0_17,0
+TRAIN10401.png,monk_4,male,0_17,1
 TRAIN10402.png,monk_9,male,31_60,0
 TRAIN10403.png,monk_3,male,18_30,0
 TRAIN10404.png,monk_2,male,31_60,1
@@ -1016,7 +1016,7 @@ TRAIN10406.png,monk_8,female,31_60,0
 TRAIN10407.png,monk_4,male,31_60,1
 TRAIN10408.png,monk_8,female,0_17,0
 TRAIN10409.png,monk_5,male,18_30,0
-TRAIN10410.png,monk_8,female,31_60,0
+TRAIN10410.png,monk_8,female,31_60,1
 TRAIN10411.png,monk_3,female,31_60,1
 TRAIN10412.png,monk_4,male,18_30,0
 TRAIN10413.png,monk_4,female,18_30,1
@@ -1083,9 +1083,9 @@ TRAIN10486.png,monk_5,male,0_17,0
 TRAIN10488.png,monk_2,female,18_30,0
 TRAIN10489.png,monk_2,female,18_30,1
 TRAIN1049.png,monk_9,male,18_30,1
-TRAIN10490.png,monk_2,female,0_17,0
+TRAIN10490.png,monk_2,female,0_17,1
 TRAIN10491.png,monk_9,male,18_30,1
-TRAIN10492.png,monk_7,female,18_30,0
+TRAIN10492.png,monk_7,female,18_30,1
 TRAIN10495.png,monk_6,male,0_17,1
 TRAIN10496.png,monk_7,female,31_60,0
 TRAIN10498.png,monk_6,male,18_30,1
@@ -1097,7 +1097,7 @@ TRAIN10502.png,monk_6,male,0_17,0
 TRAIN10503.png,monk_5,female,0_17,0
 TRAIN10504.png,monk_6,male,18_30,0
 TRAIN10506.png,monk_3,female,18_30,0
-TRAIN1051.png,monk_4,male,0_17,0
+TRAIN1051.png,monk_4,male,0_17,1
 TRAIN10510.png,monk_5,female,18_30,1
 TRAIN10511.png,monk_3,female,31_60,1
 TRAIN10512.png,monk_5,male,0_17,1
@@ -1141,7 +1141,7 @@ TRAIN10562.png,monk_5,male,0_17,0
 TRAIN10564.png,monk_8,female,0_17,1
 TRAIN10565.png,monk_4,female,18_30,1
 TRAIN10566.png,monk_6,male,31_60,1
-TRAIN10567.png,monk_4,female,31_60,0
+TRAIN10567.png,monk_4,female,31_60,1
 TRAIN10568.png,monk_7,female,18_30,0
 TRAIN10569.png,monk_2,female,18_30,1
 TRAIN10571.png,monk_3,male,18_30,1
@@ -1242,7 +1242,7 @@ TRAIN10696.png,monk_5,male,18_30,0
 TRAIN10698.png,monk_2,female,18_30,0
 TRAIN10699.png,monk_4,male,18_30,0
 TRAIN1070.png,monk_4,female,31_60,1
-TRAIN10700.png,monk_6,female,18_30,0
+TRAIN10700.png,monk_6,female,18_30,1
 TRAIN10701.png,monk_2,female,18_30,0
 TRAIN10703.png,monk_6,female,0_17,1
 TRAIN10704.png,monk_4,male,18_30,0
@@ -1290,7 +1290,7 @@ TRAIN10753.png,monk_4,female,18_30,0
 TRAIN10754.png,monk_2,female,18_30,0
 TRAIN10755.png,monk_2,male,31_60,1
 TRAIN10756.png,monk_6,female,18_30,1
-TRAIN10757.png,monk_2,female,18_30,0
+TRAIN10757.png,monk_2,female,18_30,1
 TRAIN10759.png,monk_5,female,18_30,1
 TRAIN10761.png,monk_4,female,0_17,1
 TRAIN10764.png,monk_2,female,18_30,1
@@ -1308,7 +1308,7 @@ TRAIN10779.png,monk_4,female,31_60,0
 TRAIN10780.png,monk_9,male,18_30,1
 TRAIN10781.png,monk_2,male,0_17,1
 TRAIN10782.png,monk_3,female,18_30,1
-TRAIN10784.png,monk_2,female,0_17,0
+TRAIN10784.png,monk_2,female,0_17,1
 TRAIN10785.png,monk_5,female,0_17,0
 TRAIN10787.png,monk_5,female,0_17,0
 TRAIN10788.png,monk_8,female,18_30,1
@@ -1325,7 +1325,7 @@ TRAIN10799.png,monk_2,male,18_30,1
 TRAIN1080.png,monk_7,male,18_30,1
 TRAIN10800.png,monk_9,female,18_30,1
 TRAIN10801.png,monk_3,female,18_30,1
-TRAIN10802.png,monk_4,female,31_60,0
+TRAIN10802.png,monk_4,female,31_60,1
 TRAIN10803.png,monk_3,female,18_30,1
 TRAIN10804.png,monk_5,female,18_30,1
 TRAIN10805.png,monk_6,female,18_30,0
@@ -1375,7 +1375,7 @@ TRAIN10860.png,monk_3,female,18_30,1
 TRAIN10861.png,monk_9,female,18_30,0
 TRAIN10862.png,monk_7,male,0_17,1
 TRAIN10867.png,monk_6,female,18_30,0
-TRAIN10868.png,monk_2,female,18_30,0
+TRAIN10868.png,monk_2,female,18_30,1
 TRAIN10869.png,monk_3,male,18_30,0
 TRAIN10870.png,monk_5,female,31_60,1
 TRAIN10871.png,monk_7,female,31_60,1
@@ -1495,7 +1495,7 @@ TRAIN11013.png,monk_6,female,18_30,0
 TRAIN11014.png,monk_4,female,18_30,1
 TRAIN11015.png,monk_3,female,18_30,0
 TRAIN11016.png,monk_5,female,0_17,0
-TRAIN11018.png,monk_9,female,31_60,0
+TRAIN11018.png,monk_9,female,31_60,1
 TRAIN11019.png,monk_4,male,31_60,0
 TRAIN1102.png,monk_2,male,0_17,1
 TRAIN11020.png,monk_3,female,61_100,0
@@ -1519,7 +1519,7 @@ TRAIN1104.png,monk_9,female,18_30,0
 TRAIN11041.png,monk_3,female,18_30,0
 TRAIN11042.png,monk_7,female,61_100,0
 TRAIN11044.png,monk_6,female,18_30,0
-TRAIN11045.png,monk_3,male,0_17,0
+TRAIN11045.png,monk_3,male,0_17,1
 TRAIN11048.png,monk_6,male,31_60,0
 TRAIN11049.png,monk_3,female,31_60,0
 TRAIN1105.png,monk_1,female,31_60,1
@@ -1532,7 +1532,7 @@ TRAIN11059.png,monk_3,female,18_30,0
 TRAIN1106.png,monk_4,female,18_30,1
 TRAIN11060.png,monk_3,female,0_17,1
 TRAIN11061.png,monk_5,female,31_60,0
-TRAIN11062.png,monk_5,male,0_17,0
+TRAIN11062.png,monk_5,male,0_17,1
 TRAIN11063.png,monk_3,female,18_30,0
 TRAIN11064.png,monk_2,female,0_17,0
 TRAIN11068.png,monk_5,male,31_60,0
@@ -1614,7 +1614,7 @@ TRAIN11161.png,monk_3,male,0_17,1
 TRAIN11162.png,monk_2,male,0_17,1
 TRAIN11164.png,monk_5,male,31_60,0
 TRAIN11165.png,monk_1,male,0_17,0
-TRAIN11168.png,monk_3,male,31_60,0
+TRAIN11168.png,monk_3,male,31_60,1
 TRAIN1117.png,monk_7,male,31_60,0
 TRAIN11170.png,monk_3,female,18_30,1
 TRAIN11172.png,monk_2,female,18_30,1
@@ -1719,7 +1719,7 @@ TRAIN11309.png,monk_6,male,18_30,0
 TRAIN1131.png,monk_5,female,18_30,0
 TRAIN11310.png,monk_5,male,0_17,0
 TRAIN11311.png,monk_3,female,18_30,1
-TRAIN11312.png,monk_6,female,0_17,0
+TRAIN11312.png,monk_6,female,0_17,1
 TRAIN11313.png,monk_8,female,18_30,0
 TRAIN11314.png,monk_2,female,31_60,0
 TRAIN11316.png,monk_3,male,18_30,0
@@ -1824,7 +1824,7 @@ TRAIN11437.png,monk_3,male,31_60,0
 TRAIN11439.png,monk_3,female,18_30,1
 TRAIN1144.png,monk_2,female,31_60,1
 TRAIN11440.png,monk_8,female,31_60,1
-TRAIN11441.png,monk_6,male,31_60,0
+TRAIN11441.png,monk_6,male,31_60,1
 TRAIN11442.png,monk_5,female,18_30,1
 TRAIN11443.png,monk_6,male,18_30,0
 TRAIN11444.png,monk_3,female,18_30,0
@@ -1894,10 +1894,10 @@ TRAIN11523.png,monk_4,female,31_60,1
 TRAIN11524.png,monk_3,female,18_30,0
 TRAIN11526.png,monk_2,male,18_30,0
 TRAIN11527.png,monk_4,female,18_30,1
-TRAIN11528.png,monk_5,female,31_60,0
+TRAIN11528.png,monk_5,female,31_60,1
 TRAIN11529.png,monk_3,female,18_30,0
 TRAIN11530.png,monk_2,male,18_30,1
-TRAIN11531.png,monk_7,female,0_17,0
+TRAIN11531.png,monk_7,female,0_17,1
 TRAIN11532.png,monk_8,male,31_60,0
 TRAIN11533.png,monk_4,female,18_30,1
 TRAIN11534.png,monk_1,female,31_60,0
@@ -1968,7 +1968,7 @@ TRAIN11621.png,monk_2,female,18_30,0
 TRAIN11622.png,monk_6,female,18_30,1
 TRAIN11623.png,monk_2,female,0_17,0
 TRAIN11624.png,monk_5,female,31_60,1
-TRAIN11625.png,monk_3,male,0_17,0
+TRAIN11625.png,monk_3,male,0_17,1
 TRAIN11626.png,monk_3,female,18_30,0
 TRAIN11627.png,monk_3,female,31_60,0
 TRAIN11628.png,monk_7,female,31_60,1
@@ -2002,7 +2002,7 @@ TRAIN11660.png,monk_3,female,18_30,0
 TRAIN11661.png,monk_4,male,0_17,0
 TRAIN11662.png,monk_4,female,31_60,1
 TRAIN11664.png,monk_2,female,18_30,1
-TRAIN11665.png,monk_3,female,61_100,0
+TRAIN11665.png,monk_3,female,61_100,1
 TRAIN11666.png,monk_6,female,31_60,0
 TRAIN11667.png,monk_3,male,18_30,0
 TRAIN11668.png,monk_4,male,18_30,0
@@ -2043,7 +2043,7 @@ TRAIN1171.png,monk_4,female,31_60,0
 TRAIN11712.png,monk_7,male,18_30,1
 TRAIN11714.png,monk_3,male,18_30,0
 TRAIN11715.png,monk_5,female,18_30,0
-TRAIN11718.png,monk_6,female,31_60,0
+TRAIN11718.png,monk_6,female,31_60,1
 TRAIN1172.png,monk_5,male,31_60,1
 TRAIN11722.png,monk_3,male,0_17,0
 TRAIN11723.png,monk_1,female,18_30,1
@@ -2117,7 +2117,7 @@ TRAIN11809.png,monk_3,male,18_30,1
 TRAIN1181.png,monk_8,female,18_30,0
 TRAIN11811.png,monk_4,female,0_17,1
 TRAIN11812.png,monk_7,male,18_30,1
-TRAIN11813.png,monk_4,male,0_17,0
+TRAIN11813.png,monk_4,male,0_17,1
 TRAIN11814.png,monk_4,female,31_60,0
 TRAIN11818.png,monk_2,female,18_30,1
 TRAIN11819.png,monk_6,female,31_60,1
@@ -2125,8 +2125,8 @@ TRAIN1182.png,monk_3,female,18_30,1
 TRAIN11820.png,monk_1,female,18_30,1
 TRAIN11822.png,monk_4,female,18_30,1
 TRAIN11823.png,monk_6,female,31_60,1
-TRAIN11825.png,monk_5,male,18_30,0
-TRAIN11826.png,monk_3,female,18_30,0
+TRAIN11825.png,monk_5,male,18_30,1
+TRAIN11826.png,monk_3,female,18_30,1
 TRAIN11829.png,monk_4,female,0_17,0
 TRAIN11832.png,monk_3,female,18_30,0
 TRAIN11833.png,monk_9,female,31_60,0
@@ -2152,7 +2152,7 @@ TRAIN11857.png,monk_4,male,61_100,1
 TRAIN11858.png,monk_4,male,0_17,0
 TRAIN11859.png,monk_3,female,0_17,0
 TRAIN1186.png,monk_5,female,31_60,1
-TRAIN11860.png,monk_5,male,0_17,0
+TRAIN11860.png,monk_5,male,0_17,1
 TRAIN11861.png,monk_7,female,18_30,1
 TRAIN11862.png,monk_3,female,18_30,0
 TRAIN11863.png,monk_5,male,0_17,1
@@ -2222,7 +2222,7 @@ TRAIN11945.png,monk_8,female,18_30,0
 TRAIN11946.png,monk_2,female,0_17,1
 TRAIN11947.png,monk_3,female,18_30,0
 TRAIN11948.png,monk_4,female,0_17,1
-TRAIN11950.png,monk_6,female,18_30,0
+TRAIN11950.png,monk_6,female,18_30,1
 TRAIN11951.png,monk_2,female,18_30,1
 TRAIN11956.png,monk_7,male,18_30,0
 TRAIN11958.png,monk_5,male,0_17,0
@@ -2237,7 +2237,7 @@ TRAIN11965.png,monk_6,female,18_30,1
 TRAIN11967.png,monk_8,male,31_60,0
 TRAIN11968.png,monk_6,female,0_17,0
 TRAIN11970.png,monk_4,male,0_17,0
-TRAIN11971.png,monk_5,female,18_30,0
+TRAIN11971.png,monk_5,female,18_30,1
 TRAIN11972.png,monk_5,male,31_60,1
 TRAIN11973.png,monk_7,female,31_60,1
 TRAIN11974.png,monk_2,female,31_60,0
@@ -2263,13 +2263,13 @@ TRAIN12001.png,monk_4,male,0_17,1
 TRAIN12002.png,monk_4,female,31_60,1
 TRAIN12003.png,monk_3,female,18_30,0
 TRAIN12004.png,monk_7,female,18_30,1
-TRAIN12005.png,monk_4,female,18_30,0
+TRAIN12005.png,monk_4,female,18_30,1
 TRAIN12006.png,monk_3,female,18_30,0
 TRAIN12007.png,monk_6,male,18_30,1
 TRAIN12010.png,monk_3,female,31_60,0
 TRAIN12011.png,monk_2,female,18_30,1
 TRAIN12012.png,monk_9,female,18_30,0
-TRAIN12015.png,monk_8,female,18_30,0
+TRAIN12015.png,monk_8,female,18_30,1
 TRAIN12016.png,monk_7,male,18_30,1
 TRAIN12017.png,monk_6,female,31_60,1
 TRAIN12018.png,monk_5,male,18_30,0
@@ -2284,12 +2284,12 @@ TRAIN12028.png,monk_2,female,0_17,1
 TRAIN1203.png,monk_6,male,18_30,0
 TRAIN12030.png,monk_5,female,18_30,0
 TRAIN12031.png,monk_4,female,18_30,0
-TRAIN12033.png,monk_6,female,31_60,0
+TRAIN12033.png,monk_6,female,31_60,1
 TRAIN12034.png,monk_5,male,31_60,1
 TRAIN12037.png,monk_8,female,18_30,0
 TRAIN12038.png,monk_5,male,0_17,1
 TRAIN12039.png,monk_8,male,0_17,0
-TRAIN1204.png,monk_7,female,31_60,0
+TRAIN1204.png,monk_7,female,31_60,1
 TRAIN12040.png,monk_3,male,18_30,1
 TRAIN12041.png,monk_3,female,31_60,1
 TRAIN12042.png,monk_3,male,61_100,0
@@ -2322,7 +2322,7 @@ TRAIN12081.png,monk_5,female,18_30,1
 TRAIN12082.png,monk_3,female,18_30,0
 TRAIN12083.png,monk_2,female,0_17,1
 TRAIN12085.png,monk_8,female,0_17,0
-TRAIN12086.png,monk_5,male,0_17,0
+TRAIN12086.png,monk_5,male,0_17,1
 TRAIN12087.png,monk_2,female,31_60,0
 TRAIN12088.png,monk_3,female,18_30,0
 TRAIN12089.png,monk_2,female,0_17,0
@@ -2503,17 +2503,17 @@ TRAIN1269.png,monk_3,female,31_60,1
 TRAIN1270.png,monk_1,female,0_17,0
 TRAIN1271.png,monk_7,female,0_17,1
 TRAIN1273.png,monk_2,female,18_30,0
-TRAIN1274.png,monk_5,male,18_30,0
+TRAIN1274.png,monk_5,male,18_30,1
 TRAIN1276.png,monk_3,female,18_30,0
 TRAIN1278.png,monk_2,male,0_17,1
 TRAIN1279.png,monk_3,male,0_17,1
-TRAIN1280.png,monk_5,male,0_17,0
+TRAIN1280.png,monk_5,male,0_17,1
 TRAIN1283.png,monk_5,male,31_60,1
 TRAIN1286.png,monk_7,male,18_30,1
 TRAIN1287.png,monk_3,male,31_60,1
 TRAIN1288.png,monk_3,male,18_30,0
 TRAIN1289.png,monk_3,female,0_17,0
-TRAIN1290.png,monk_7,male,18_30,0
+TRAIN1290.png,monk_7,male,18_30,1
 TRAIN1291.png,monk_6,female,0_17,0
 TRAIN1292.png,monk_3,male,0_17,0
 TRAIN1293.png,monk_4,male,31_60,1
@@ -2539,7 +2539,7 @@ TRAIN1317.png,monk_3,male,0_17,0
 TRAIN1319.png,monk_7,female,0_17,0
 TRAIN1321.png,monk_8,female,31_60,0
 TRAIN1322.png,monk_4,female,18_30,1
-TRAIN1324.png,monk_3,female,18_30,0
+TRAIN1324.png,monk_3,female,18_30,1
 TRAIN1325.png,monk_7,male,0_17,0
 TRAIN1326.png,monk_3,female,31_60,1
 TRAIN1327.png,monk_5,male,31_60,1
@@ -2759,7 +2759,7 @@ TRAIN1640.png,monk_7,male,18_30,0
 TRAIN1641.png,monk_2,male,18_30,0
 TRAIN1644.png,monk_4,female,18_30,0
 TRAIN1645.png,monk_3,male,31_60,1
-TRAIN1646.png,monk_7,female,61_100,0
+TRAIN1646.png,monk_7,female,61_100,1
 TRAIN1647.png,monk_3,female,31_60,0
 TRAIN1648.png,monk_7,male,18_30,0
 TRAIN1649.png,monk_6,female,18_30,1
@@ -2813,7 +2813,7 @@ TRAIN1717.png,monk_8,female,18_30,1
 TRAIN1719.png,monk_8,female,31_60,1
 TRAIN1721.png,monk_6,male,31_60,1
 TRAIN1723.png,monk_4,female,18_30,0
-TRAIN1724.png,monk_4,male,31_60,0
+TRAIN1724.png,monk_4,male,31_60,1
 TRAIN1725.png,monk_3,female,18_30,1
 TRAIN1726.png,monk_3,female,31_60,1
 TRAIN1727.png,monk_2,male,0_17,1
@@ -2827,7 +2827,7 @@ TRAIN1738.png,monk_6,male,61_100,1
 TRAIN1741.png,monk_10,male,18_30,1
 TRAIN1742.png,monk_2,female,31_60,0
 TRAIN1748.png,monk_4,male,18_30,1
-TRAIN1749.png,monk_4,female,18_30,0
+TRAIN1749.png,monk_4,female,18_30,1
 TRAIN1750.png,monk_5,male,31_60,0
 TRAIN1751.png,monk_7,male,18_30,0
 TRAIN1752.png,monk_4,male,18_30,0
@@ -2844,7 +2844,7 @@ TRAIN1764.png,monk_5,female,18_30,1
 TRAIN1765.png,monk_3,female,0_17,1
 TRAIN1767.png,monk_6,male,18_30,1
 TRAIN1770.png,monk_8,male,0_17,1
-TRAIN1771.png,monk_4,female,0_17,0
+TRAIN1771.png,monk_4,female,0_17,1
 TRAIN1772.png,monk_6,female,31_60,1
 TRAIN1773.png,monk_5,female,18_30,0
 TRAIN1774.png,monk_7,male,18_30,0
@@ -2868,7 +2868,7 @@ TRAIN1799.png,monk_5,male,61_100,1
 TRAIN1800.png,monk_4,female,0_17,1
 TRAIN1801.png,monk_3,female,0_17,0
 TRAIN1802.png,monk_8,female,31_60,1
-TRAIN1804.png,monk_5,male,0_17,0
+TRAIN1804.png,monk_5,male,0_17,1
 TRAIN1806.png,monk_7,female,18_30,0
 TRAIN1808.png,monk_4,female,18_30,1
 TRAIN1809.png,monk_5,female,31_60,0
@@ -2905,7 +2905,7 @@ TRAIN1847.png,monk_2,female,61_100,1
 TRAIN1848.png,monk_5,female,31_60,1
 TRAIN1849.png,monk_5,male,0_17,0
 TRAIN1850.png,monk_1,male,0_17,1
-TRAIN1852.png,monk_6,male,0_17,0
+TRAIN1852.png,monk_6,male,0_17,1
 TRAIN1853.png,monk_7,female,31_60,0
 TRAIN1854.png,monk_1,male,18_30,0
 TRAIN1855.png,monk_2,female,31_60,1
@@ -2942,7 +2942,7 @@ TRAIN1898.png,monk_3,female,18_30,1
 TRAIN1899.png,monk_5,male,18_30,0
 TRAIN1900.png,monk_3,male,18_30,1
 TRAIN1901.png,monk_9,female,0_17,1
-TRAIN1902.png,monk_4,female,18_30,0
+TRAIN1902.png,monk_4,female,18_30,1
 TRAIN1903.png,monk_7,male,18_30,0
 TRAIN1906.png,monk_8,female,18_30,0
 TRAIN1907.png,monk_5,female,31_60,0
@@ -3238,7 +3238,7 @@ TRAIN2311.png,monk_2,female,18_30,1
 TRAIN2313.png,monk_3,male,18_30,0
 TRAIN2314.png,monk_3,female,0_17,1
 TRAIN2320.png,monk_7,male,18_30,0
-TRAIN2321.png,monk_10,male,0_17,0
+TRAIN2321.png,monk_10,male,0_17,1
 TRAIN2322.png,monk_1,male,18_30,0
 TRAIN2323.png,monk_4,female,31_60,1
 TRAIN2324.png,monk_3,female,31_60,0
@@ -3281,7 +3281,7 @@ TRAIN2376.png,monk_4,female,18_30,0
 TRAIN2378.png,monk_4,male,0_17,0
 TRAIN2379.png,monk_3,female,31_60,1
 TRAIN2381.png,monk_2,female,18_30,0
-TRAIN2382.png,monk_5,male,18_30,0
+TRAIN2382.png,monk_5,male,18_30,1
 TRAIN2383.png,monk_3,female,31_60,0
 TRAIN2384.png,monk_9,female,18_30,1
 TRAIN2385.png,monk_10,male,18_30,0
@@ -3378,7 +3378,7 @@ TRAIN2523.png,monk_1,female,0_17,1
 TRAIN2524.png,monk_7,male,31_60,0
 TRAIN2525.png,monk_3,female,18_30,0
 TRAIN2526.png,monk_4,female,18_30,1
-TRAIN2528.png,monk_2,male,18_30,0
+TRAIN2528.png,monk_2,male,18_30,1
 TRAIN2529.png,monk_2,female,18_30,0
 TRAIN2530.png,monk_5,female,0_17,0
 TRAIN2532.png,monk_3,female,31_60,0
@@ -3461,19 +3461,19 @@ TRAIN2645.png,monk_3,male,18_30,0
 TRAIN2646.png,monk_1,male,18_30,1
 TRAIN2647.png,monk_3,female,18_30,1
 TRAIN2649.png,monk_5,female,18_30,0
-TRAIN2652.png,monk_3,female,18_30,0
+TRAIN2652.png,monk_3,female,18_30,1
 TRAIN2653.png,monk_1,male,0_17,0
 TRAIN2654.png,monk_8,male,18_30,1
 TRAIN2656.png,monk_8,male,31_60,0
 TRAIN2657.png,monk_6,female,18_30,1
-TRAIN2658.png,monk_5,female,18_30,0
+TRAIN2658.png,monk_5,female,18_30,1
 TRAIN2659.png,monk_6,female,31_60,1
 TRAIN2660.png,monk_3,female,0_17,1
 TRAIN2661.png,monk_4,male,0_17,1
 TRAIN2662.png,monk_5,female,61_100,0
 TRAIN2663.png,monk_7,male,31_60,0
 TRAIN2665.png,monk_10,male,18_30,1
-TRAIN2666.png,monk_4,female,18_30,0
+TRAIN2666.png,monk_4,female,18_30,1
 TRAIN2667.png,monk_5,female,18_30,0
 TRAIN2668.png,monk_8,female,31_60,1
 TRAIN2669.png,monk_4,female,31_60,0
@@ -3611,7 +3611,7 @@ TRAIN2844.png,monk_3,male,18_30,0
 TRAIN2845.png,monk_4,female,18_30,1
 TRAIN2849.png,monk_4,female,0_17,0
 TRAIN2850.png,monk_4,female,18_30,0
-TRAIN2851.png,monk_4,female,0_17,0
+TRAIN2851.png,monk_4,female,0_17,1
 TRAIN2852.png,monk_6,female,31_60,0
 TRAIN2853.png,monk_8,male,61_100,0
 TRAIN2854.png,monk_8,male,18_30,1
@@ -3634,7 +3634,7 @@ TRAIN2881.png,monk_2,female,18_30,1
 TRAIN2883.png,monk_4,female,18_30,1
 TRAIN2885.png,monk_6,male,31_60,1
 TRAIN2886.png,monk_4,female,18_30,1
-TRAIN2887.png,monk_6,female,18_30,0
+TRAIN2887.png,monk_6,female,18_30,1
 TRAIN2888.png,monk_4,female,18_30,0
 TRAIN2890.png,monk_4,male,18_30,0
 TRAIN2891.png,monk_5,female,31_60,0
@@ -3664,9 +3664,9 @@ TRAIN2924.png,monk_7,male,0_17,0
 TRAIN2925.png,monk_4,male,31_60,1
 TRAIN2926.png,monk_7,male,0_17,0
 TRAIN2930.png,monk_2,male,18_30,1
-TRAIN2931.png,monk_6,male,18_30,0
+TRAIN2931.png,monk_6,male,18_30,1
 TRAIN2933.png,monk_3,female,31_60,1
-TRAIN2934.png,monk_2,male,18_30,0
+TRAIN2934.png,monk_2,male,18_30,1
 TRAIN2936.png,monk_4,male,0_17,1
 TRAIN2937.png,monk_5,male,18_30,1
 TRAIN2938.png,monk_3,male,0_17,0
@@ -3700,7 +3700,7 @@ TRAIN2978.png,monk_8,female,18_30,0
 TRAIN2979.png,monk_7,female,0_17,0
 TRAIN2983.png,monk_5,female,18_30,0
 TRAIN2985.png,monk_2,female,0_17,1
-TRAIN2987.png,monk_4,male,0_17,0
+TRAIN2987.png,monk_4,male,0_17,1
 TRAIN2988.png,monk_5,female,18_30,1
 TRAIN2989.png,monk_3,female,0_17,0
 TRAIN2990.png,monk_1,female,18_30,1
@@ -3779,7 +3779,7 @@ TRAIN3108.png,monk_2,female,18_30,0
 TRAIN3109.png,monk_6,female,61_100,0
 TRAIN3110.png,monk_9,male,31_60,1
 TRAIN3112.png,monk_4,female,0_17,1
-TRAIN3113.png,monk_7,female,61_100,0
+TRAIN3113.png,monk_7,female,61_100,1
 TRAIN3114.png,monk_6,female,61_100,0
 TRAIN3117.png,monk_2,female,18_30,1
 TRAIN3119.png,monk_3,male,0_17,0
@@ -3887,7 +3887,7 @@ TRAIN3252.png,monk_4,female,18_30,1
 TRAIN3253.png,monk_2,female,61_100,1
 TRAIN3255.png,monk_6,male,31_60,1
 TRAIN3256.png,monk_2,male,18_30,1
-TRAIN3257.png,monk_7,male,18_30,0
+TRAIN3257.png,monk_7,male,18_30,1
 TRAIN3258.png,monk_3,female,31_60,1
 TRAIN3259.png,monk_3,male,18_30,0
 TRAIN3260.png,monk_3,female,0_17,0
@@ -3915,7 +3915,7 @@ TRAIN3293.png,monk_7,male,31_60,1
 TRAIN3294.png,monk_6,female,18_30,0
 TRAIN3296.png,monk_3,female,0_17,0
 TRAIN3298.png,monk_3,female,18_30,1
-TRAIN3300.png,monk_3,male,0_17,0
+TRAIN3300.png,monk_3,male,0_17,1
 TRAIN3301.png,monk_2,male,18_30,0
 TRAIN3302.png,monk_8,male,0_17,0
 TRAIN3303.png,monk_8,male,0_17,0
@@ -4082,7 +4082,7 @@ TRAIN3543.png,monk_5,male,0_17,0
 TRAIN3545.png,monk_5,female,18_30,1
 TRAIN3546.png,monk_7,female,0_17,0
 TRAIN3548.png,monk_3,male,0_17,1
-TRAIN3549.png,monk_3,female,18_30,0
+TRAIN3549.png,monk_3,female,18_30,1
 TRAIN3551.png,monk_5,female,31_60,1
 TRAIN3552.png,monk_2,male,31_60,0
 TRAIN3553.png,monk_1,male,18_30,1
@@ -4092,7 +4092,7 @@ TRAIN3556.png,monk_3,female,18_30,0
 TRAIN3557.png,monk_5,male,61_100,1
 TRAIN3558.png,monk_2,male,0_17,1
 TRAIN3560.png,monk_8,male,31_60,1
-TRAIN3561.png,monk_3,female,18_30,0
+TRAIN3561.png,monk_3,female,18_30,1
 TRAIN3563.png,monk_8,male,0_17,0
 TRAIN3564.png,monk_6,male,31_60,0
 TRAIN3565.png,monk_4,female,18_30,0
@@ -4106,7 +4106,7 @@ TRAIN3575.png,monk_2,female,31_60,1
 TRAIN3577.png,monk_5,male,0_17,1
 TRAIN3579.png,monk_7,male,18_30,0
 TRAIN3580.png,monk_3,male,31_60,1
-TRAIN3581.png,monk_5,female,18_30,0
+TRAIN3581.png,monk_5,female,18_30,1
 TRAIN3582.png,monk_5,female,18_30,0
 TRAIN3583.png,monk_9,male,0_17,0
 TRAIN3584.png,monk_5,female,31_60,0
@@ -4160,7 +4160,7 @@ TRAIN3654.png,monk_4,male,18_30,0
 TRAIN3655.png,monk_6,female,31_60,0
 TRAIN3657.png,monk_3,female,31_60,1
 TRAIN3659.png,monk_3,female,18_30,1
-TRAIN3661.png,monk_4,male,31_60,0
+TRAIN3661.png,monk_4,male,31_60,1
 TRAIN3662.png,monk_4,male,0_17,0
 TRAIN3663.png,monk_2,female,31_60,1
 TRAIN3664.png,monk_8,male,31_60,0
@@ -4168,7 +4168,7 @@ TRAIN3665.png,monk_2,female,61_100,0
 TRAIN3666.png,monk_3,female,18_30,0
 TRAIN3667.png,monk_3,female,18_30,1
 TRAIN3670.png,monk_6,female,18_30,0
-TRAIN3672.png,monk_7,male,31_60,0
+TRAIN3672.png,monk_7,male,31_60,1
 TRAIN3673.png,monk_8,male,18_30,1
 TRAIN3674.png,monk_5,male,31_60,1
 TRAIN3675.png,monk_6,female,0_17,1
@@ -4195,13 +4195,13 @@ TRAIN3713.png,monk_1,female,18_30,0
 TRAIN3714.png,monk_4,male,18_30,0
 TRAIN3715.png,monk_9,male,18_30,1
 TRAIN3716.png,monk_2,male,18_30,1
-TRAIN3718.png,monk_9,female,18_30,0
+TRAIN3718.png,monk_9,female,18_30,1
 TRAIN3719.png,monk_5,male,31_60,1
 TRAIN3720.png,monk_2,female,18_30,1
 TRAIN3722.png,monk_6,male,0_17,1
 TRAIN3723.png,monk_2,female,0_17,1
 TRAIN3725.png,monk_4,female,18_30,0
-TRAIN3726.png,monk_3,female,18_30,0
+TRAIN3726.png,monk_3,female,18_30,1
 TRAIN3727.png,monk_2,male,31_60,0
 TRAIN3729.png,monk_4,female,18_30,1
 TRAIN3730.png,monk_4,female,61_100,1
@@ -4238,7 +4238,7 @@ TRAIN3765.png,monk_2,female,18_30,1
 TRAIN3766.png,monk_4,female,18_30,0
 TRAIN3767.png,monk_4,female,31_60,1
 TRAIN3768.png,monk_3,female,18_30,1
-TRAIN3769.png,monk_4,male,31_60,0
+TRAIN3769.png,monk_4,male,31_60,1
 TRAIN3770.png,monk_5,female,18_30,1
 TRAIN3771.png,monk_2,female,31_60,1
 TRAIN3774.png,monk_3,female,31_60,1
@@ -4288,7 +4288,7 @@ TRAIN3832.png,monk_4,female,31_60,1
 TRAIN3835.png,monk_7,female,31_60,0
 TRAIN3836.png,monk_1,female,18_30,1
 TRAIN3839.png,monk_9,female,31_60,1
-TRAIN3840.png,monk_7,male,31_60,0
+TRAIN3840.png,monk_7,male,31_60,1
 TRAIN3841.png,monk_5,female,18_30,1
 TRAIN3842.png,monk_9,male,18_30,1
 TRAIN3843.png,monk_4,female,31_60,0
@@ -4320,7 +4320,7 @@ TRAIN3880.png,monk_2,female,18_30,0
 TRAIN3882.png,monk_8,male,18_30,0
 TRAIN3885.png,monk_4,female,18_30,1
 TRAIN3888.png,monk_4,male,0_17,1
-TRAIN3890.png,monk_3,female,31_60,0
+TRAIN3890.png,monk_3,female,31_60,1
 TRAIN3892.png,monk_3,female,31_60,1
 TRAIN3893.png,monk_5,male,0_17,0
 TRAIN3895.png,monk_3,female,0_17,1
@@ -4478,8 +4478,8 @@ TRAIN4125.png,monk_3,male,61_100,0
 TRAIN4126.png,monk_2,female,18_30,1
 TRAIN4130.png,monk_9,female,0_17,1
 TRAIN4131.png,monk_4,male,18_30,1
-TRAIN4133.png,monk_1,male,31_60,0
-TRAIN4134.png,monk_4,female,18_30,0
+TRAIN4133.png,monk_1,male,31_60,1
+TRAIN4134.png,monk_4,female,18_30,1
 TRAIN4135.png,monk_8,female,18_30,0
 TRAIN4136.png,monk_2,female,0_17,1
 TRAIN4137.png,monk_5,female,18_30,0
@@ -4597,7 +4597,7 @@ TRAIN4286.png,monk_4,female,18_30,0
 TRAIN4287.png,monk_7,female,31_60,0
 TRAIN4289.png,monk_4,female,31_60,0
 TRAIN4290.png,monk_2,male,18_30,0
-TRAIN4293.png,monk_2,female,18_30,0
+TRAIN4293.png,monk_2,female,18_30,1
 TRAIN4294.png,monk_7,male,18_30,1
 TRAIN4296.png,monk_2,female,18_30,1
 TRAIN4297.png,monk_4,female,18_30,0
@@ -4608,7 +4608,7 @@ TRAIN4303.png,monk_4,female,18_30,1
 TRAIN4304.png,monk_3,female,18_30,1
 TRAIN4305.png,monk_2,female,31_60,1
 TRAIN4306.png,monk_4,female,18_30,1
-TRAIN4307.png,monk_7,male,18_30,0
+TRAIN4307.png,monk_7,male,18_30,1
 TRAIN4309.png,monk_2,male,0_17,1
 TRAIN4310.png,monk_2,male,0_17,1
 TRAIN4311.png,monk_7,male,0_17,0
@@ -4639,10 +4639,10 @@ TRAIN4354.png,monk_2,female,0_17,0
 TRAIN4355.png,monk_3,male,0_17,1
 TRAIN4356.png,monk_1,female,18_30,0
 TRAIN4357.png,monk_5,female,18_30,0
-TRAIN4358.png,monk_7,female,0_17,0
+TRAIN4358.png,monk_7,female,0_17,1
 TRAIN4360.png,monk_1,female,18_30,0
 TRAIN4361.png,monk_4,female,31_60,0
-TRAIN4362.png,monk_2,female,0_17,0
+TRAIN4362.png,monk_2,female,0_17,1
 TRAIN4363.png,monk_4,male,18_30,0
 TRAIN4364.png,monk_5,female,31_60,1
 TRAIN4365.png,monk_5,female,18_30,1
@@ -4681,7 +4681,7 @@ TRAIN4419.png,monk_6,male,0_17,0
 TRAIN4421.png,monk_2,female,18_30,0
 TRAIN4422.png,monk_7,female,0_17,0
 TRAIN4423.png,monk_5,male,0_17,0
-TRAIN4424.png,monk_2,female,18_30,0
+TRAIN4424.png,monk_2,female,18_30,1
 TRAIN4425.png,monk_6,male,0_17,1
 TRAIN4426.png,monk_3,female,18_30,0
 TRAIN4427.png,monk_2,female,18_30,1
@@ -4755,7 +4755,7 @@ TRAIN4518.png,monk_2,female,0_17,1
 TRAIN4521.png,monk_3,female,18_30,0
 TRAIN4522.png,monk_1,female,0_17,0
 TRAIN4523.png,monk_3,male,31_60,0
-TRAIN4524.png,monk_5,male,31_60,0
+TRAIN4524.png,monk_5,male,31_60,1
 TRAIN4527.png,monk_6,male,18_30,1
 TRAIN4528.png,monk_3,female,18_30,1
 TRAIN4529.png,monk_3,male,0_17,1
@@ -4828,7 +4828,7 @@ TRAIN4620.png,monk_8,female,0_17,1
 TRAIN4621.png,monk_10,female,18_30,0
 TRAIN4623.png,monk_10,male,0_17,1
 TRAIN4624.png,monk_5,female,18_30,1
-TRAIN4625.png,monk_5,female,18_30,0
+TRAIN4625.png,monk_5,female,18_30,1
 TRAIN4626.png,monk_4,female,18_30,0
 TRAIN4627.png,monk_4,female,18_30,1
 TRAIN4628.png,monk_3,male,0_17,1
@@ -4843,12 +4843,12 @@ TRAIN4644.png,monk_5,female,18_30,1
 TRAIN4645.png,monk_7,male,31_60,1
 TRAIN4646.png,monk_2,female,0_17,1
 TRAIN4647.png,monk_6,male,18_30,1
-TRAIN4648.png,monk_3,male,18_30,0
+TRAIN4648.png,monk_3,male,18_30,1
 TRAIN4650.png,monk_3,male,18_30,1
 TRAIN4651.png,monk_1,female,31_60,1
 TRAIN4652.png,monk_8,male,31_60,1
 TRAIN4653.png,monk_2,male,31_60,0
-TRAIN4654.png,monk_7,male,0_17,0
+TRAIN4654.png,monk_7,male,0_17,1
 TRAIN4655.png,monk_8,female,18_30,1
 TRAIN4656.png,monk_6,male,18_30,1
 TRAIN4657.png,monk_3,female,18_30,1
@@ -4887,7 +4887,7 @@ TRAIN4705.png,monk_2,female,18_30,1
 TRAIN4706.png,monk_7,female,18_30,0
 TRAIN4708.png,monk_2,female,18_30,1
 TRAIN4709.png,monk_5,female,18_30,1
-TRAIN4711.png,monk_8,male,0_17,0
+TRAIN4711.png,monk_8,male,0_17,1
 TRAIN4712.png,monk_10,male,31_60,1
 TRAIN4713.png,monk_2,male,0_17,0
 TRAIN4715.png,monk_10,female,31_60,1
@@ -4930,7 +4930,7 @@ TRAIN4769.png,monk_8,female,18_30,0
 TRAIN4774.png,monk_3,female,18_30,0
 TRAIN4775.png,monk_3,female,18_30,0
 TRAIN4776.png,monk_5,male,31_60,0
-TRAIN4777.png,monk_10,male,18_30,0
+TRAIN4777.png,monk_10,male,18_30,1
 TRAIN4778.png,monk_5,male,31_60,1
 TRAIN4780.png,monk_5,male,18_30,0
 TRAIN4781.png,monk_4,female,18_30,1
@@ -4955,7 +4955,7 @@ TRAIN4811.png,monk_4,female,18_30,0
 TRAIN4812.png,monk_5,female,18_30,1
 TRAIN4813.png,monk_4,female,18_30,0
 TRAIN4814.png,monk_6,male,0_17,1
-TRAIN4815.png,monk_7,female,18_30,0
+TRAIN4815.png,monk_7,female,18_30,1
 TRAIN4817.png,monk_4,female,0_17,1
 TRAIN4818.png,monk_3,female,0_17,0
 TRAIN4820.png,monk_5,male,18_30,0
@@ -5033,7 +5033,7 @@ TRAIN4926.png,monk_4,male,18_30,0
 TRAIN4927.png,monk_8,female,18_30,1
 TRAIN4928.png,monk_3,female,18_30,1
 TRAIN4930.png,monk_5,male,0_17,1
-TRAIN4931.png,monk_5,male,0_17,0
+TRAIN4931.png,monk_5,male,0_17,1
 TRAIN4932.png,monk_4,female,18_30,1
 TRAIN4933.png,monk_2,male,18_30,0
 TRAIN4935.png,monk_6,female,0_17,1
@@ -5087,7 +5087,7 @@ TRAIN5000.png,monk_3,female,31_60,1
 TRAIN5001.png,monk_4,male,31_60,1
 TRAIN5002.png,monk_2,male,0_17,0
 TRAIN5004.png,monk_3,female,18_30,1
-TRAIN5005.png,monk_3,female,31_60,0
+TRAIN5005.png,monk_3,female,31_60,1
 TRAIN5010.png,monk_2,female,31_60,1
 TRAIN5012.png,monk_2,female,0_17,1
 TRAIN5013.png,monk_3,female,18_30,1
@@ -5131,7 +5131,7 @@ TRAIN5073.png,monk_7,female,18_30,0
 TRAIN5074.png,monk_4,male,18_30,1
 TRAIN5075.png,monk_4,female,18_30,0
 TRAIN5077.png,monk_3,female,18_30,1
-TRAIN5078.png,monk_6,female,18_30,0
+TRAIN5078.png,monk_6,female,18_30,1
 TRAIN5080.png,monk_7,female,18_30,0
 TRAIN5081.png,monk_1,female,0_17,0
 TRAIN5082.png,monk_2,female,18_30,1
@@ -5142,7 +5142,7 @@ TRAIN5086.png,monk_5,female,18_30,1
 TRAIN5088.png,monk_4,female,0_17,0
 TRAIN5089.png,monk_1,female,18_30,0
 TRAIN5090.png,monk_5,male,0_17,0
-TRAIN5091.png,monk_2,male,0_17,0
+TRAIN5091.png,monk_2,male,0_17,1
 TRAIN5092.png,monk_4,female,18_30,1
 TRAIN5093.png,monk_2,female,31_60,0
 TRAIN5094.png,monk_5,male,0_17,1
@@ -5152,8 +5152,8 @@ TRAIN5098.png,monk_7,male,0_17,0
 TRAIN5101.png,monk_3,male,31_60,1
 TRAIN5102.png,monk_2,female,18_30,1
 TRAIN5103.png,monk_1,male,0_17,0
-TRAIN5104.png,monk_4,female,0_17,0
-TRAIN5105.png,monk_1,male,31_60,0
+TRAIN5104.png,monk_4,female,0_17,1
+TRAIN5105.png,monk_1,male,31_60,1
 TRAIN5106.png,monk_9,female,0_17,1
 TRAIN5107.png,monk_1,female,0_17,1
 TRAIN5108.png,monk_3,male,0_17,1
@@ -5166,9 +5166,9 @@ TRAIN5116.png,monk_3,female,0_17,0
 TRAIN5119.png,monk_5,male,31_60,1
 TRAIN5121.png,monk_2,female,31_60,1
 TRAIN5122.png,monk_7,male,18_30,0
-TRAIN5123.png,monk_2,male,18_30,0
-TRAIN5124.png,monk_3,male,31_60,0
-TRAIN5125.png,monk_2,female,18_30,0
+TRAIN5123.png,monk_2,male,18_30,1
+TRAIN5124.png,monk_3,male,31_60,1
+TRAIN5125.png,monk_2,female,18_30,1
 TRAIN5126.png,monk_8,female,18_30,0
 TRAIN5127.png,monk_2,female,18_30,0
 TRAIN5131.png,monk_1,female,18_30,0
@@ -5225,7 +5225,7 @@ TRAIN5203.png,monk_10,female,0_17,0
 TRAIN5204.png,monk_9,male,31_60,0
 TRAIN5205.png,monk_1,female,18_30,0
 TRAIN5207.png,monk_5,female,18_30,0
-TRAIN5208.png,monk_3,female,31_60,0
+TRAIN5208.png,monk_3,female,31_60,1
 TRAIN5209.png,monk_5,female,18_30,1
 TRAIN5210.png,monk_5,male,31_60,1
 TRAIN5212.png,monk_2,female,18_30,1
@@ -5234,7 +5234,7 @@ TRAIN5214.png,monk_8,male,18_30,1
 TRAIN5215.png,monk_2,male,0_17,1
 TRAIN5216.png,monk_3,female,0_17,1
 TRAIN5217.png,monk_2,male,31_60,1
-TRAIN5221.png,monk_4,male,18_30,0
+TRAIN5221.png,monk_4,male,18_30,1
 TRAIN5222.png,monk_3,female,18_30,1
 TRAIN5223.png,monk_2,female,18_30,0
 TRAIN5226.png,monk_8,male,0_17,0
@@ -5304,7 +5304,7 @@ TRAIN5323.png,monk_4,female,18_30,1
 TRAIN5325.png,monk_3,male,18_30,0
 TRAIN5326.png,monk_5,male,31_60,1
 TRAIN5327.png,monk_5,female,18_30,0
-TRAIN5330.png,monk_3,female,18_30,0
+TRAIN5330.png,monk_3,female,18_30,1
 TRAIN5334.png,monk_7,male,18_30,0
 TRAIN5336.png,monk_9,male,31_60,1
 TRAIN5338.png,monk_6,female,18_30,1
@@ -5335,10 +5335,10 @@ TRAIN5375.png,monk_10,female,18_30,1
 TRAIN5376.png,monk_8,female,18_30,1
 TRAIN5380.png,monk_5,female,31_60,1
 TRAIN5383.png,monk_9,female,0_17,0
-TRAIN5385.png,monk_4,female,18_30,0
+TRAIN5385.png,monk_4,female,18_30,1
 TRAIN5387.png,monk_4,female,18_30,0
 TRAIN5388.png,monk_3,female,18_30,1
-TRAIN5390.png,monk_3,female,0_17,0
+TRAIN5390.png,monk_3,female,0_17,1
 TRAIN5391.png,monk_4,female,18_30,1
 TRAIN5392.png,monk_4,female,31_60,0
 TRAIN5393.png,monk_2,female,18_30,0
@@ -5374,7 +5374,7 @@ TRAIN5435.png,monk_2,female,31_60,0
 TRAIN5436.png,monk_6,male,31_60,0
 TRAIN5439.png,monk_7,male,18_30,0
 TRAIN5441.png,monk_4,female,18_30,1
-TRAIN5442.png,monk_5,female,18_30,0
+TRAIN5442.png,monk_5,female,18_30,1
 TRAIN5443.png,monk_2,male,0_17,0
 TRAIN5444.png,monk_6,female,0_17,0
 TRAIN5445.png,monk_4,female,31_60,0
@@ -5383,7 +5383,7 @@ TRAIN5447.png,monk_10,male,31_60,1
 TRAIN5448.png,monk_5,female,61_100,0
 TRAIN5449.png,monk_3,female,18_30,0
 TRAIN5450.png,monk_5,male,18_30,1
-TRAIN5451.png,monk_3,female,18_30,0
+TRAIN5451.png,monk_3,female,18_30,1
 TRAIN5452.png,monk_5,male,18_30,1
 TRAIN5454.png,monk_5,male,61_100,1
 TRAIN5455.png,monk_4,female,18_30,0
@@ -5443,7 +5443,7 @@ TRAIN5538.png,monk_5,female,31_60,1
 TRAIN5539.png,monk_10,female,18_30,0
 TRAIN5540.png,monk_3,female,0_17,1
 TRAIN5541.png,monk_6,male,18_30,0
-TRAIN5542.png,monk_2,female,18_30,0
+TRAIN5542.png,monk_2,female,18_30,1
 TRAIN5543.png,monk_8,male,18_30,0
 TRAIN5545.png,monk_8,female,0_17,1
 TRAIN5546.png,monk_5,female,0_17,1
@@ -5489,7 +5489,7 @@ TRAIN5596.png,monk_3,male,61_100,0
 TRAIN5597.png,monk_7,female,18_30,0
 TRAIN5598.png,monk_3,female,18_30,1
 TRAIN5599.png,monk_5,female,31_60,1
-TRAIN5600.png,monk_3,male,18_30,0
+TRAIN5600.png,monk_3,male,18_30,1
 TRAIN5601.png,monk_9,female,18_30,1
 TRAIN5602.png,monk_3,male,0_17,0
 TRAIN5603.png,monk_2,male,18_30,0
@@ -5543,11 +5543,11 @@ TRAIN5678.png,monk_5,female,61_100,1
 TRAIN5679.png,monk_2,female,0_17,1
 TRAIN5681.png,monk_2,female,0_17,1
 TRAIN5685.png,monk_8,male,18_30,0
-TRAIN5686.png,monk_3,female,31_60,0
-TRAIN5690.png,monk_9,female,31_60,0
+TRAIN5686.png,monk_3,female,31_60,1
+TRAIN5690.png,monk_9,female,31_60,1
 TRAIN5691.png,monk_6,male,0_17,0
 TRAIN5692.png,monk_3,female,18_30,1
-TRAIN5693.png,monk_3,female,18_30,0
+TRAIN5693.png,monk_3,female,18_30,1
 TRAIN5694.png,monk_5,female,31_60,1
 TRAIN5695.png,monk_5,female,0_17,0
 TRAIN5696.png,monk_9,female,0_17,1
@@ -5609,7 +5609,7 @@ TRAIN5789.png,monk_8,male,61_100,1
 TRAIN5791.png,monk_5,male,31_60,0
 TRAIN5792.png,monk_5,male,31_60,0
 TRAIN5793.png,monk_2,female,31_60,1
-TRAIN5794.png,monk_7,female,31_60,0
+TRAIN5794.png,monk_7,female,31_60,1
 TRAIN5796.png,monk_5,female,18_30,0
 TRAIN5797.png,monk_3,female,31_60,0
 TRAIN5798.png,monk_5,male,31_60,1
@@ -5681,7 +5681,7 @@ TRAIN5895.png,monk_1,male,0_17,0
 TRAIN5897.png,monk_3,female,0_17,0
 TRAIN5898.png,monk_3,male,31_60,1
 TRAIN5899.png,monk_3,female,18_30,0
-TRAIN5901.png,monk_1,male,18_30,0
+TRAIN5901.png,monk_1,male,18_30,1
 TRAIN5903.png,monk_5,male,61_100,1
 TRAIN5904.png,monk_3,female,0_17,0
 TRAIN5906.png,monk_3,male,0_17,0
@@ -5691,7 +5691,7 @@ TRAIN5910.png,monk_4,female,18_30,1
 TRAIN5911.png,monk_5,male,31_60,0
 TRAIN5913.png,monk_2,female,18_30,0
 TRAIN5915.png,monk_4,female,18_30,0
-TRAIN5917.png,monk_5,female,18_30,0
+TRAIN5917.png,monk_5,female,18_30,1
 TRAIN5918.png,monk_8,male,31_60,1
 TRAIN5919.png,monk_5,female,31_60,0
 TRAIN5920.png,monk_4,male,0_17,1
@@ -5806,7 +5806,7 @@ TRAIN6066.png,monk_4,male,31_60,1
 TRAIN6068.png,monk_3,female,18_30,1
 TRAIN6075.png,monk_4,female,18_30,1
 TRAIN6078.png,monk_8,male,31_60,0
-TRAIN6079.png,monk_3,female,31_60,0
+TRAIN6079.png,monk_3,female,31_60,1
 TRAIN6082.png,monk_5,female,18_30,0
 TRAIN6085.png,monk_5,male,18_30,0
 TRAIN6087.png,monk_5,female,18_30,1
@@ -5818,7 +5818,7 @@ TRAIN6093.png,monk_3,female,18_30,1
 TRAIN6094.png,monk_8,female,18_30,1
 TRAIN6095.png,monk_7,male,18_30,0
 TRAIN6097.png,monk_2,female,18_30,0
-TRAIN6099.png,monk_8,male,18_30,0
+TRAIN6099.png,monk_8,male,18_30,1
 TRAIN6100.png,monk_5,female,18_30,1
 TRAIN6102.png,monk_7,male,18_30,1
 TRAIN6103.png,monk_2,female,18_30,0
@@ -5852,7 +5852,7 @@ TRAIN6149.png,monk_9,female,18_30,1
 TRAIN6150.png,monk_2,female,31_60,0
 TRAIN6151.png,monk_3,female,18_30,1
 TRAIN6152.png,monk_4,male,0_17,0
-TRAIN6153.png,monk_4,female,18_30,0
+TRAIN6153.png,monk_4,female,18_30,1
 TRAIN6154.png,monk_4,female,18_30,0
 TRAIN6155.png,monk_5,male,61_100,0
 TRAIN6156.png,monk_4,female,61_100,1
@@ -5889,7 +5889,7 @@ TRAIN6207.png,monk_3,male,31_60,1
 TRAIN6208.png,monk_6,male,18_30,0
 TRAIN6210.png,monk_7,female,0_17,1
 TRAIN6211.png,monk_1,female,18_30,1
-TRAIN6212.png,monk_6,female,18_30,0
+TRAIN6212.png,monk_6,female,18_30,1
 TRAIN6213.png,monk_2,male,18_30,1
 TRAIN6215.png,monk_3,female,18_30,0
 TRAIN6216.png,monk_3,female,18_30,1
@@ -5934,7 +5934,7 @@ TRAIN6269.png,monk_7,female,18_30,0
 TRAIN6272.png,monk_3,female,18_30,0
 TRAIN6274.png,monk_2,female,18_30,1
 TRAIN6276.png,monk_5,female,18_30,0
-TRAIN6278.png,monk_1,male,0_17,0
+TRAIN6278.png,monk_1,male,0_17,1
 TRAIN6279.png,monk_5,male,18_30,0
 TRAIN6280.png,monk_4,female,18_30,0
 TRAIN6281.png,monk_6,male,31_60,1
@@ -6090,7 +6090,7 @@ TRAIN6483.png,monk_2,male,0_17,0
 TRAIN6484.png,monk_7,male,31_60,0
 TRAIN6485.png,monk_3,male,18_30,1
 TRAIN6486.png,monk_8,male,31_60,0
-TRAIN6487.png,monk_7,female,18_30,0
+TRAIN6487.png,monk_7,female,18_30,1
 TRAIN6488.png,monk_3,female,0_17,0
 TRAIN6490.png,monk_2,male,0_17,0
 TRAIN6491.png,monk_3,male,31_60,1
@@ -6121,7 +6121,7 @@ TRAIN6521.png,monk_3,female,0_17,1
 TRAIN6522.png,monk_4,female,31_60,0
 TRAIN6523.png,monk_7,male,18_30,0
 TRAIN6524.png,monk_1,female,18_30,1
-TRAIN6525.png,monk_5,male,31_60,0
+TRAIN6525.png,monk_5,male,31_60,1
 TRAIN6527.png,monk_3,male,18_30,0
 TRAIN6528.png,monk_3,female,18_30,0
 TRAIN6530.png,monk_3,female,61_100,0
@@ -6175,7 +6175,7 @@ TRAIN6593.png,monk_3,female,31_60,1
 TRAIN6594.png,monk_3,female,18_30,0
 TRAIN6596.png,monk_10,male,18_30,1
 TRAIN6598.png,monk_4,female,18_30,0
-TRAIN6599.png,monk_4,female,18_30,0
+TRAIN6599.png,monk_4,female,18_30,1
 TRAIN6600.png,monk_3,male,18_30,0
 TRAIN6601.png,monk_3,female,0_17,0
 TRAIN6602.png,monk_3,male,31_60,0
@@ -6269,7 +6269,7 @@ TRAIN6732.png,monk_8,female,31_60,0
 TRAIN6735.png,monk_7,male,31_60,0
 TRAIN6736.png,monk_4,male,0_17,0
 TRAIN6737.png,monk_2,female,18_30,0
-TRAIN6738.png,monk_1,female,18_30,0
+TRAIN6738.png,monk_1,female,18_30,1
 TRAIN6740.png,monk_1,male,0_17,1
 TRAIN6741.png,monk_3,female,18_30,1
 TRAIN6742.png,monk_3,female,31_60,0
@@ -6340,7 +6340,7 @@ TRAIN6828.png,monk_5,male,0_17,1
 TRAIN6831.png,monk_1,female,18_30,1
 TRAIN6833.png,monk_2,female,18_30,0
 TRAIN6835.png,monk_9,female,18_30,1
-TRAIN6836.png,monk_5,male,31_60,0
+TRAIN6836.png,monk_5,male,31_60,1
 TRAIN6837.png,monk_2,male,0_17,0
 TRAIN6838.png,monk_6,female,61_100,1
 TRAIN6839.png,monk_3,female,31_60,0
@@ -6348,7 +6348,7 @@ TRAIN6841.png,monk_4,female,31_60,0
 TRAIN6844.png,monk_5,female,31_60,1
 TRAIN6845.png,monk_6,female,0_17,1
 TRAIN6846.png,monk_7,male,0_17,0
-TRAIN6848.png,monk_8,male,0_17,0
+TRAIN6848.png,monk_8,male,0_17,1
 TRAIN6849.png,monk_9,male,0_17,1
 TRAIN6851.png,monk_5,male,31_60,0
 TRAIN6852.png,monk_3,female,31_60,0
@@ -6437,7 +6437,7 @@ TRAIN6973.png,monk_4,female,31_60,0
 TRAIN6974.png,monk_3,female,0_17,0
 TRAIN6975.png,monk_5,female,31_60,0
 TRAIN6976.png,monk_9,female,31_60,0
-TRAIN6977.png,monk_8,male,18_30,0
+TRAIN6977.png,monk_8,male,18_30,1
 TRAIN6979.png,monk_3,female,31_60,0
 TRAIN6980.png,monk_3,female,18_30,0
 TRAIN6981.png,monk_5,male,18_30,0
@@ -6458,7 +6458,7 @@ TRAIN6998.png,monk_5,female,18_30,0
 TRAIN6999.png,monk_1,male,0_17,0
 TRAIN7000.png,monk_5,male,18_30,0
 TRAIN7001.png,monk_5,male,18_30,1
-TRAIN7002.png,monk_5,female,18_30,0
+TRAIN7002.png,monk_5,female,18_30,1
 TRAIN7003.png,monk_7,female,0_17,0
 TRAIN7004.png,monk_3,female,18_30,0
 TRAIN7005.png,monk_4,female,0_17,0
@@ -6481,7 +6481,7 @@ TRAIN7027.png,monk_10,male,61_100,0
 TRAIN7028.png,monk_4,female,18_30,1
 TRAIN7029.png,monk_1,female,0_17,0
 TRAIN7030.png,monk_7,male,31_60,1
-TRAIN7031.png,monk_7,male,0_17,0
+TRAIN7031.png,monk_7,male,0_17,1
 TRAIN7032.png,monk_3,female,18_30,1
 TRAIN7035.png,monk_3,female,18_30,1
 TRAIN7036.png,monk_4,male,31_60,0
@@ -6584,7 +6584,7 @@ TRAIN7178.png,monk_7,male,0_17,1
 TRAIN7179.png,monk_3,male,18_30,0
 TRAIN7181.png,monk_7,female,18_30,0
 TRAIN7183.png,monk_1,female,18_30,0
-TRAIN7184.png,monk_2,female,18_30,0
+TRAIN7184.png,monk_2,female,18_30,1
 TRAIN7185.png,monk_8,male,0_17,1
 TRAIN7186.png,monk_4,male,18_30,1
 TRAIN7188.png,monk_2,female,0_17,0
@@ -6648,7 +6648,7 @@ TRAIN7268.png,monk_2,male,18_30,1
 TRAIN7269.png,monk_4,female,31_60,1
 TRAIN7270.png,monk_6,female,31_60,0
 TRAIN7274.png,monk_6,female,18_30,0
-TRAIN7275.png,monk_5,female,18_30,0
+TRAIN7275.png,monk_5,female,18_30,1
 TRAIN7279.png,monk_8,female,31_60,1
 TRAIN7280.png,monk_5,female,18_30,1
 TRAIN7281.png,monk_4,male,0_17,1
@@ -6746,7 +6746,7 @@ TRAIN7413.png,monk_6,female,0_17,1
 TRAIN7414.png,monk_7,female,18_30,0
 TRAIN7415.png,monk_3,female,18_30,0
 TRAIN7418.png,monk_6,female,31_60,0
-TRAIN7419.png,monk_2,female,31_60,0
+TRAIN7419.png,monk_2,female,31_60,1
 TRAIN7421.png,monk_4,female,18_30,0
 TRAIN7422.png,monk_2,female,61_100,0
 TRAIN7423.png,monk_4,female,31_60,1
@@ -6767,7 +6767,7 @@ TRAIN7438.png,monk_9,male,18_30,1
 TRAIN7439.png,monk_2,female,18_30,0
 TRAIN7440.png,monk_8,male,0_17,1
 TRAIN7444.png,monk_3,female,18_30,1
-TRAIN7446.png,monk_4,female,31_60,0
+TRAIN7446.png,monk_4,female,31_60,1
 TRAIN7449.png,monk_1,male,0_17,0
 TRAIN7451.png,monk_5,male,18_30,0
 TRAIN7454.png,monk_4,male,0_17,0
@@ -6817,7 +6817,7 @@ TRAIN7509.png,monk_7,male,31_60,0
 TRAIN7511.png,monk_9,female,18_30,0
 TRAIN7512.png,monk_8,female,18_30,1
 TRAIN7513.png,monk_3,male,18_30,0
-TRAIN7517.png,monk_2,female,0_17,0
+TRAIN7517.png,monk_2,female,0_17,1
 TRAIN7519.png,monk_4,male,18_30,0
 TRAIN7520.png,monk_3,female,18_30,0
 TRAIN7521.png,monk_2,female,0_17,1
@@ -6851,7 +6851,7 @@ TRAIN7562.png,monk_5,female,18_30,0
 TRAIN7563.png,monk_6,male,31_60,1
 TRAIN7564.png,monk_7,female,0_17,0
 TRAIN7566.png,monk_3,male,0_17,1
-TRAIN7567.png,monk_3,female,18_30,0
+TRAIN7567.png,monk_3,female,18_30,1
 TRAIN7568.png,monk_8,female,31_60,0
 TRAIN7569.png,monk_4,male,18_30,0
 TRAIN7570.png,monk_8,male,18_30,1
@@ -6899,9 +6899,9 @@ TRAIN7623.png,monk_1,male,0_17,0
 TRAIN7625.png,monk_3,male,18_30,0
 TRAIN7626.png,monk_7,male,0_17,0
 TRAIN7628.png,monk_4,male,18_30,1
-TRAIN7629.png,monk_3,female,18_30,0
+TRAIN7629.png,monk_3,female,18_30,1
 TRAIN7630.png,monk_4,female,18_30,1
-TRAIN7632.png,monk_3,female,18_30,0
+TRAIN7632.png,monk_3,female,18_30,1
 TRAIN7633.png,monk_4,female,31_60,0
 TRAIN7634.png,monk_5,female,31_60,1
 TRAIN7635.png,monk_5,female,18_30,1
@@ -6919,7 +6919,7 @@ TRAIN7646.png,monk_4,female,18_30,0
 TRAIN7647.png,monk_1,male,0_17,0
 TRAIN7648.png,monk_4,male,31_60,0
 TRAIN7650.png,monk_8,female,18_30,0
-TRAIN7651.png,monk_1,female,18_30,0
+TRAIN7651.png,monk_1,female,18_30,1
 TRAIN7652.png,monk_5,male,31_60,0
 TRAIN7653.png,monk_4,female,18_30,1
 TRAIN7654.png,monk_5,female,18_30,0
@@ -7061,7 +7061,7 @@ TRAIN7836.png,monk_5,female,0_17,0
 TRAIN7839.png,monk_2,female,18_30,0
 TRAIN7840.png,monk_7,female,18_30,1
 TRAIN7842.png,monk_5,male,0_17,0
-TRAIN7843.png,monk_9,male,0_17,0
+TRAIN7843.png,monk_9,male,0_17,1
 TRAIN7845.png,monk_4,male,31_60,1
 TRAIN7846.png,monk_4,female,18_30,1
 TRAIN7847.png,monk_7,male,31_60,1
@@ -7161,7 +7161,7 @@ TRAIN7987.png,monk_4,male,18_30,0
 TRAIN7988.png,monk_3,female,18_30,0
 TRAIN7989.png,monk_3,male,18_30,0
 TRAIN7991.png,monk_4,female,18_30,0
-TRAIN7992.png,monk_3,female,31_60,0
+TRAIN7992.png,monk_3,female,31_60,1
 TRAIN7993.png,monk_4,male,31_60,0
 TRAIN7994.png,monk_3,female,18_30,0
 TRAIN7996.png,monk_4,male,18_30,1
@@ -7186,7 +7186,7 @@ TRAIN8018.png,monk_4,male,31_60,0
 TRAIN8020.png,monk_2,female,18_30,1
 TRAIN8023.png,monk_3,female,18_30,0
 TRAIN8024.png,monk_2,female,18_30,1
-TRAIN8025.png,monk_4,female,18_30,0
+TRAIN8025.png,monk_4,female,18_30,1
 TRAIN8026.png,monk_7,female,31_60,0
 TRAIN8027.png,monk_2,male,0_17,1
 TRAIN8028.png,monk_5,male,31_60,0
@@ -7194,7 +7194,7 @@ TRAIN8029.png,monk_2,female,0_17,1
 TRAIN8030.png,monk_3,male,0_17,1
 TRAIN8032.png,monk_8,male,0_17,1
 TRAIN8033.png,monk_10,male,31_60,0
-TRAIN8034.png,monk_2,male,31_60,0
+TRAIN8034.png,monk_2,male,31_60,1
 TRAIN8036.png,monk_4,female,18_30,1
 TRAIN8038.png,monk_5,male,18_30,1
 TRAIN8040.png,monk_3,female,0_17,1
@@ -7251,7 +7251,7 @@ TRAIN8113.png,monk_3,female,31_60,1
 TRAIN8115.png,monk_6,male,31_60,1
 TRAIN8116.png,monk_2,female,18_30,1
 TRAIN8118.png,monk_2,female,18_30,0
-TRAIN8120.png,monk_7,female,18_30,0
+TRAIN8120.png,monk_7,female,18_30,1
 TRAIN8121.png,monk_5,male,0_17,1
 TRAIN8122.png,monk_3,female,18_30,0
 TRAIN8123.png,monk_4,female,18_30,1
@@ -7277,7 +7277,7 @@ TRAIN8150.png,monk_8,male,0_17,0
 TRAIN8151.png,monk_3,female,31_60,1
 TRAIN8152.png,monk_3,female,0_17,1
 TRAIN8153.png,monk_9,male,0_17,0
-TRAIN8154.png,monk_3,female,18_30,0
+TRAIN8154.png,monk_3,female,18_30,1
 TRAIN8155.png,monk_3,male,0_17,0
 TRAIN8157.png,monk_3,female,31_60,0
 TRAIN8158.png,monk_5,female,31_60,1
@@ -7323,7 +7323,7 @@ TRAIN8215.png,monk_3,female,31_60,0
 TRAIN8216.png,monk_6,male,18_30,1
 TRAIN8217.png,monk_8,female,18_30,1
 TRAIN8218.png,monk_7,female,18_30,0
-TRAIN8219.png,monk_7,male,18_30,0
+TRAIN8219.png,monk_7,male,18_30,1
 TRAIN8220.png,monk_6,female,18_30,0
 TRAIN8222.png,monk_2,female,0_17,0
 TRAIN8223.png,monk_4,male,0_17,0
@@ -7343,7 +7343,7 @@ TRAIN8237.png,monk_5,female,61_100,0
 TRAIN8238.png,monk_4,male,31_60,0
 TRAIN8239.png,monk_3,female,18_30,1
 TRAIN8240.png,monk_4,female,18_30,1
-TRAIN8241.png,monk_1,female,18_30,0
+TRAIN8241.png,monk_1,female,18_30,1
 TRAIN8242.png,monk_1,male,0_17,1
 TRAIN8243.png,monk_4,female,0_17,1
 TRAIN8244.png,monk_3,female,31_60,1
@@ -7529,7 +7529,7 @@ TRAIN8514.png,monk_1,female,18_30,0
 TRAIN8516.png,monk_5,male,31_60,0
 TRAIN8519.png,monk_2,female,18_30,0
 TRAIN8521.png,monk_4,male,31_60,0
-TRAIN8522.png,monk_2,male,61_100,0
+TRAIN8522.png,monk_2,male,61_100,1
 TRAIN8523.png,monk_4,male,61_100,1
 TRAIN8524.png,monk_4,female,0_17,1
 TRAIN8527.png,monk_3,male,31_60,0
@@ -7677,7 +7677,7 @@ TRAIN8733.png,monk_9,male,0_17,0
 TRAIN8734.png,monk_8,male,18_30,1
 TRAIN8735.png,monk_3,male,61_100,1
 TRAIN8737.png,monk_3,male,18_30,0
-TRAIN8738.png,monk_3,female,18_30,0
+TRAIN8738.png,monk_3,female,18_30,1
 TRAIN8739.png,monk_2,female,31_60,1
 TRAIN8740.png,monk_2,female,18_30,0
 TRAIN8742.png,monk_1,female,0_17,1
@@ -7762,7 +7762,7 @@ TRAIN8863.png,monk_4,female,18_30,1
 TRAIN8865.png,monk_4,female,0_17,0
 TRAIN8867.png,monk_4,male,18_30,0
 TRAIN8868.png,monk_5,male,0_17,0
-TRAIN8869.png,monk_1,female,0_17,0
+TRAIN8869.png,monk_1,female,0_17,1
 TRAIN8870.png,monk_8,female,18_30,0
 TRAIN8872.png,monk_2,male,0_17,1
 TRAIN8875.png,monk_3,male,18_30,1
@@ -7782,7 +7782,7 @@ TRAIN8890.png,monk_5,male,31_60,0
 TRAIN8892.png,monk_3,female,18_30,0
 TRAIN8894.png,monk_3,female,18_30,1
 TRAIN8895.png,monk_5,female,18_30,0
-TRAIN8896.png,monk_2,female,18_30,0
+TRAIN8896.png,monk_2,female,18_30,1
 TRAIN8897.png,monk_2,female,0_17,1
 TRAIN8900.png,monk_2,female,0_17,0
 TRAIN8901.png,monk_1,male,18_30,0
@@ -7804,7 +7804,7 @@ TRAIN8922.png,monk_4,female,18_30,1
 TRAIN8924.png,monk_2,female,18_30,0
 TRAIN8925.png,monk_3,female,0_17,1
 TRAIN8926.png,monk_2,female,31_60,0
-TRAIN8927.png,monk_8,female,18_30,0
+TRAIN8927.png,monk_8,female,18_30,1
 TRAIN8928.png,monk_5,female,31_60,1
 TRAIN8929.png,monk_4,male,0_17,0
 TRAIN8930.png,monk_3,female,0_17,0
@@ -7812,7 +7812,7 @@ TRAIN8931.png,monk_3,male,0_17,0
 TRAIN8932.png,monk_3,male,61_100,0
 TRAIN8933.png,monk_5,male,18_30,1
 TRAIN8940.png,monk_3,female,31_60,0
-TRAIN8941.png,monk_2,female,0_17,0
+TRAIN8941.png,monk_2,female,0_17,1
 TRAIN8942.png,monk_3,female,18_30,0
 TRAIN8943.png,monk_6,male,31_60,1
 TRAIN8944.png,monk_6,male,31_60,0
@@ -8037,7 +8037,7 @@ TRAIN9241.png,monk_3,male,0_17,1
 TRAIN9242.png,monk_5,female,18_30,1
 TRAIN9243.png,monk_10,male,31_60,0
 TRAIN9246.png,monk_7,male,0_17,1
-TRAIN9247.png,monk_8,female,18_30,0
+TRAIN9247.png,monk_8,female,18_30,1
 TRAIN9249.png,monk_5,female,0_17,1
 TRAIN9250.png,monk_7,male,0_17,1
 TRAIN9251.png,monk_4,male,0_17,1
@@ -8080,7 +8080,7 @@ TRAIN9302.png,monk_3,female,18_30,1
 TRAIN9303.png,monk_3,female,0_17,0
 TRAIN9305.png,monk_2,female,18_30,1
 TRAIN9307.png,monk_4,female,31_60,0
-TRAIN9308.png,monk_10,female,18_30,0
+TRAIN9308.png,monk_10,female,18_30,1
 TRAIN9309.png,monk_5,male,0_17,0
 TRAIN9310.png,monk_6,male,18_30,0
 TRAIN9311.png,monk_5,female,0_17,1
@@ -8089,7 +8089,7 @@ TRAIN9313.png,monk_3,female,18_30,0
 TRAIN9314.png,monk_9,female,61_100,1
 TRAIN9315.png,monk_1,female,18_30,0
 TRAIN9317.png,monk_5,female,18_30,1
-TRAIN9318.png,monk_3,female,18_30,0
+TRAIN9318.png,monk_3,female,18_30,1
 TRAIN9319.png,monk_2,female,0_17,1
 TRAIN9320.png,monk_8,female,18_30,1
 TRAIN9321.png,monk_5,female,31_60,0
@@ -8149,7 +8149,7 @@ TRAIN9401.png,monk_3,male,31_60,1
 TRAIN9403.png,monk_6,male,31_60,1
 TRAIN9404.png,monk_5,male,18_30,0
 TRAIN9405.png,monk_9,male,31_60,0
-TRAIN9406.png,monk_5,female,31_60,0
+TRAIN9406.png,monk_5,female,31_60,1
 TRAIN9407.png,monk_3,male,0_17,0
 TRAIN9408.png,monk_7,male,31_60,0
 TRAIN9409.png,monk_4,female,0_17,1
@@ -8204,7 +8204,7 @@ TRAIN9472.png,monk_4,female,18_30,0
 TRAIN9473.png,monk_4,female,31_60,0
 TRAIN9474.png,monk_3,female,31_60,0
 TRAIN9475.png,monk_3,male,0_17,0
-TRAIN9476.png,monk_5,male,31_60,0
+TRAIN9476.png,monk_5,male,31_60,1
 TRAIN9477.png,monk_4,male,18_30,0
 TRAIN9479.png,monk_5,female,18_30,1
 TRAIN9480.png,monk_2,male,18_30,0
@@ -8240,7 +8240,7 @@ TRAIN9519.png,monk_5,female,31_60,1
 TRAIN9520.png,monk_7,male,31_60,0
 TRAIN9521.png,monk_2,female,0_17,1
 TRAIN9523.png,monk_8,male,31_60,0
-TRAIN9524.png,monk_2,female,31_60,0
+TRAIN9524.png,monk_2,female,31_60,1
 TRAIN9525.png,monk_1,female,18_30,1
 TRAIN9526.png,monk_3,male,0_17,0
 TRAIN9529.png,monk_2,male,0_17,0
@@ -8259,7 +8259,7 @@ TRAIN9548.png,monk_5,male,18_30,1
 TRAIN9549.png,monk_9,male,31_60,1
 TRAIN9550.png,monk_4,female,0_17,0
 TRAIN9554.png,monk_3,female,31_60,1
-TRAIN9555.png,monk_3,male,31_60,0
+TRAIN9555.png,monk_3,male,31_60,1
 TRAIN9556.png,monk_5,male,18_30,1
 TRAIN9557.png,monk_5,male,0_17,1
 TRAIN9559.png,monk_8,male,18_30,0
@@ -8295,7 +8295,7 @@ TRAIN9604.png,monk_3,female,0_17,1
 TRAIN9605.png,monk_1,male,31_60,1
 TRAIN9606.png,monk_7,male,18_30,0
 TRAIN9608.png,monk_6,male,18_30,1
-TRAIN9610.png,monk_3,male,18_30,0
+TRAIN9610.png,monk_3,male,18_30,1
 TRAIN9616.png,monk_3,female,18_30,1
 TRAIN9618.png,monk_5,male,0_17,1
 TRAIN9622.png,monk_3,male,31_60,1
@@ -8334,9 +8334,9 @@ TRAIN9676.png,monk_3,female,0_17,1
 TRAIN9678.png,monk_6,male,18_30,0
 TRAIN9680.png,monk_2,female,0_17,1
 TRAIN9681.png,monk_5,female,0_17,1
-TRAIN9683.png,monk_2,female,18_30,0
+TRAIN9683.png,monk_2,female,18_30,1
 TRAIN9685.png,monk_7,male,0_17,0
-TRAIN9686.png,monk_6,female,31_60,0
+TRAIN9686.png,monk_6,female,31_60,1
 TRAIN9687.png,monk_5,male,18_30,0
 TRAIN9688.png,monk_6,male,18_30,0
 TRAIN9690.png,monk_5,female,18_30,1
@@ -8408,7 +8408,7 @@ TRAIN9780.png,monk_9,male,31_60,1
 TRAIN9781.png,monk_4,female,18_30,1
 TRAIN9783.png,monk_2,female,18_30,1
 TRAIN9784.png,monk_5,female,18_30,1
-TRAIN9787.png,monk_6,male,0_17,0
+TRAIN9787.png,monk_6,male,0_17,1
 TRAIN9788.png,monk_4,male,31_60,0
 TRAIN9789.png,monk_3,female,18_30,0
 TRAIN9790.png,monk_5,male,18_30,0
@@ -8502,7 +8502,7 @@ TRAIN9917.png,monk_8,male,18_30,1
 TRAIN9918.png,monk_5,female,18_30,1
 TRAIN9921.png,monk_4,female,18_30,1
 TRAIN9923.png,monk_2,male,0_17,0
-TRAIN9925.png,monk_5,female,0_17,0
+TRAIN9925.png,monk_5,female,0_17,1
 TRAIN9929.png,monk_7,male,18_30,1
 TRAIN9930.png,monk_2,female,18_30,1
 TRAIN9932.png,monk_3,female,18_30,1
@@ -8521,7 +8521,7 @@ TRAIN9953.png,monk_6,male,18_30,0
 TRAIN9954.png,monk_9,male,61_100,0
 TRAIN9955.png,monk_4,female,18_30,0
 TRAIN9957.png,monk_4,female,18_30,1
-TRAIN9958.png,monk_4,female,0_17,0
+TRAIN9958.png,monk_4,female,0_17,1
 TRAIN9959.png,monk_7,female,31_60,1
 TRAIN9960.png,monk_4,female,0_17,1
 TRAIN9961.png,monk_3,female,18_30,1
