@@ -4,13 +4,27 @@ Creates a dataset of face / non-face for training face classifier
 import argparse
 import pandas as pd
 import logging
+import zipfile
 from pathlib import Path
+from tqdm import tqdm
 
-import create_zip_file
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
 )
+
+
+def save_imgs_with_labels(
+    df: pd.DataFrame,
+    filename: str,
+    data_dir: Path,
+    save_dir: Path,
+    label_col: str = "real_face",
+) -> None:
+    """Save img files to zip with label directory structure"""
+    with zipfile.ZipFile(save_dir / filename, "w") as zf:
+        for _, row in tqdm(df.iterrows()):
+            zf.write(data_dir / row["name"], f"{row[label_col]}/{row['name']}")
 
 
 def main(args: argparse.Namespace) -> None:
@@ -39,14 +53,22 @@ def main(args: argparse.Namespace) -> None:
     facedf["weight"] = 1 / facedf["count"]
     downsampled = facedf.sample(n=(df["real_face"] == 0).sum(), weights="weight")
 
-    finaldf = pd.concat(
-        [downsampled, df.loc[df["real_face"] == 0]], axis=0
-    ).reset_index()[["name", "real_face"]]
+    finaldf = (
+        pd.concat([downsampled, df.loc[df["real_face"] == 0]], axis=0).reset_index()[
+            ["name", "real_face"]
+        ]
+        # replace "1" with "face" and "0" with "nonface"
+        .replace({"real_face": {1: "face", 0: "nonface"}})
+    )
 
     # create dataset
     logging.info("Creating dataset...")
-    create_zip_file.save_as_zip(
-        finaldf, filename="facenoface.zip", save_dir=SAVE_DIR, data_dir=DATA_DIR
+    save_imgs_with_labels(
+        finaldf,
+        filename="facenoface.zip",
+        save_dir=SAVE_DIR,
+        data_dir=DATA_DIR,
+        label_col="real_face",
     )
     df.to_csv(SAVE_DIR / "face_labels.csv", index=False)
 
