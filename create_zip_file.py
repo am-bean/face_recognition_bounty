@@ -13,6 +13,14 @@ logger = logging.basicConfig(
 )
 
 
+def save_as_zip(
+    df: pd.DataFrame, filename: str, data_dir: Path, save_dir: Path
+) -> None:
+    with zipfile.ZipFile(save_dir / filename, "w") as zf:
+        for _, row in tqdm(df.iterrows()):
+            zf.write(data_dir / row["name"], row["name"])
+
+
 def main(args: argparse.Namespace) -> None:
     # load data
     DATA_DIR = Path(args.data_dir)
@@ -37,9 +45,7 @@ def main(args: argparse.Namespace) -> None:
     )
 
     # create zip file
-    with zipfile.ZipFile(SAVE_DIR / "labeled_images.zip", "w") as zf:
-        for i, row in tqdm(df_labeled.iterrows()):
-            zf.write(DATA_DIR / row["name"], row["name"])
+    save_as_zip(df_labeled, "labeled_images.zip", data_dir=DATA_DIR, save_dir=SAVE_DIR)
     logging.info(f"Zip file saved to {SAVE_DIR / 'labeled_images.zip'}")
     df_labeled.to_csv(SAVE_DIR / "labeled_images.csv", index=False)
 
