@@ -12,6 +12,7 @@ from tqdm import tqdm
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s"
 )
+CATS = ["skin_tone", "gender", "age"]
 
 
 def save_imgs_with_labels(
@@ -42,16 +43,19 @@ def main(args: argparse.Namespace) -> None:
     logging.info("Downsampling faces")
     facedf = df.loc[df["real_face"] == 1]
     intersect_counts = (
-        facedf.groupby(["skin_tone", "gender", "age"])["name"]
+        facedf.groupby(CATS)["name"]
         .count()
         .reset_index()
         .rename({"name": "count"}, axis=1)
     )
+    logging.info(f"Biggest group (pre-downsample): {intersect_counts['count'].max()}")
 
     # join intersect counts with facedf
     facedf = facedf.merge(intersect_counts, on=["skin_tone", "gender", "age"])
     facedf["weight"] = 1 / facedf["count"]
     downsampled = facedf.sample(n=(df["real_face"] == 0).sum(), weights="weight")
+    downsampled_counts = downsampled.groupby(CATS)["name"].count()
+    logging.info(f"Biggest group (post-downsample): {downsampled_counts.max()}")
 
     finaldf = (
         pd.concat([downsampled, df.loc[df["real_face"] == 0]], axis=0).reset_index()[
