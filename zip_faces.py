@@ -82,8 +82,8 @@ if __name__ == "__main__":
         description="Creates a dataset of face / non-face for training face classifier",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-    parser.add_argument("--data-dir", type=str, default="train")
-    parser.add_argument("--save-dir", type=str, default=".")
+    parser.add_argument("--data-dir", help="Directory with images", type=str, default="train")
+    parser.add_argument("--save-dir", help="Directory to save images", type=str, default=".")
     args = parser.parse_args()
     main(args)
 
