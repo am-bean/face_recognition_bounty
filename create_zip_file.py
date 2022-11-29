@@ -12,6 +12,8 @@ logger = logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+CATS = ["skin_tone", "age", "gender"]
+
 
 def save_as_zip(
     df: pd.DataFrame, filename: str, data_dir: Path, save_dir: Path
@@ -19,6 +21,22 @@ def save_as_zip(
     with zipfile.ZipFile(save_dir / filename, "w") as zf:
         for _, row in tqdm(df.iterrows()):
             zf.write(data_dir / row["name"], row["name"])
+
+
+def downsample_intersec(labels: pd.DataFrame) -> pd.DataFrame:
+    """Downsample a dataframe with intersectional labels (NB: only works for the specific ones)"""
+    intersec = labels.groupby(CATS)["name"].count()
+    min_count = intersec.min()
+    new_df = pd.DataFrame()
+    for (skin_tone, age, gender), _ in intersec.iteritems():
+        intersec_filter = (
+            (labels["skin_tone"] == skin_tone)
+            & (labels["gender"] == gender)
+            & (labels["age"] == age)
+        )
+        intersec_df = labels[intersec_filter].sample(min_count, replace=False)
+        new_df = pd.concat([new_df, intersec_df])
+    return new_df
 
 
 def main(args: argparse.Namespace) -> None:
@@ -44,8 +62,16 @@ def main(args: argparse.Namespace) -> None:
         .reset_index(drop=True)
     )
 
+    # downsample faces based on demographics
+    print("Downsampling faces")
+    downsampled = downsample_intersec(df_labeled)
+    print(
+        "Biggest group (post-downsample):",
+        downsampled.groupby(CATS)["name"].count().max(),
+    )
+
     # create zip file
-    save_as_zip(df_labeled, "labeled_images.zip", data_dir=DATA_DIR, save_dir=SAVE_DIR)
+    save_as_zip(downsampled, "labeled_images.zip", data_dir=DATA_DIR, save_dir=SAVE_DIR)
     logging.info(f"Zip file saved to {SAVE_DIR / 'labeled_images.zip'}")
     df_labeled.to_csv(SAVE_DIR / "labeled_images.csv", index=False)
 
