@@ -1,6 +1,7 @@
 *.png
 *.zip
 /models/
+*config.json
 
 
 # Byte-compiled / optimized / DLL files
