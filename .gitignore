@@ -1,8 +1,7 @@
 *.png
 *.zip
+*.h5
 *.npy
-*.pkl
-/models/
 *config.json
 
 
