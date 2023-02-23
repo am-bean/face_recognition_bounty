@@ -1,3 +1,7 @@
+# 8-Bit Bias Bounty
+
+This repository reflects a team effort from a competition to reduce algorithmic bias in facial recognition classifiers. We ended up placing in the top few in both categories, and were awarded a commendation for most innovative approach. https://biasbounty.ai/captains-blog/f/announcing-the-8-bit-bias-bounty-winners
+
 # face_recognition_bounty
 
 FINAL_MODEL.ipynb contains the necessary code to load and run the model. It assumes that images are converted to (64,64,3) exactly as in the example notebook.
